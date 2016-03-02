@@ -1,0 +1,158 @@
+body {
+  font-size: 13px;
+  font-family: 'OpenSans', sans-serif;
+  margin: 0;
+  padding:0;
+  #overflow:hidden;
+  width:100%;
+}
+
+.apri-form-component {
+	float:left;
+}
+
+.apri-form-component.not-selectable {
+	opacity:0.4;
+}
+
+.apri-view-container {
+	float: left;
+	position: relative;
+	left:100px;
+	top:40px;
+	width:60em;
+}
+.apri-view-header {
+	float: left;
+	position: relative;
+	font-size:24px;
+	font-weight: bold;
+}
+.apri-view-body {
+	float: left;
+	position: relative;
+	top:40px;
+	width:100%;
+}
+
+.apri-view-body.loading-animation {
+	opacity: 0.5;
+	background-color:aliceblue;
+}	
+
+
+@-moz-keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+      
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+  
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+@keyframes slidein {
+  from {
+   # opacity: 0;
+	background-color:red;
+  }
+  to {
+   # opacity: 1;
+	background-color:green;
+  }
+}
+
+.apri-view-field  {
+	#float: left;
+	#clear:both;
+	#position: relative;
+	#left:10px;
+	#top:10px;
+	line-height:24px;
+}
+
+.apri-viewField-error {
+	background-color: red;
+}
+
+.apri-view-field-text, .apri-view-field-textarea  {
+	#float: left;
+	position: relative;
+	left:100px;
+	width:100%;
+	#top:10px;
+}
+
+.apri-view-field-textarea  {
+	min-height: 100px;
+}
+
+.aprientry-inq-true {
+	display:none;
+	visibility:hidden;
+}
+
+.apri-view-field-text {
+	font-size:14px;
+}
+.apri-view-field-textarea {
+	font-size:14px;
+}
+
+.apri-view-field-url {
+	height:400px;
+	width:100%;
+}
+.apri-view-field.result {
+	height:400px;
+	width:100%;
+}
+
+.apri-view-field-parameter {
+	#width:200px;
+	display:flex;
+}
+.apri-view-field-parameter-key {
+	#width:200px;
+	display:flex;
+}
+.apri-view-field-parameter-value {
+	#width:200px;
+	display:flex;
+}
+
+.apri-view-field-label {
+	font-weight: bold;
+	#float: left;
+	position: absolute;
+	#left:4px;
+	#clear:both;
+}
+.apri-view-button {
+	float: left;
+	position: relative;
+	left:10px;
+	top:10px;
+}
+
+.awesome-marker i {
+        font-size: 16px;
+        margin-top: 10px;
+		margin-left: 3px;
+}
+
+
+
