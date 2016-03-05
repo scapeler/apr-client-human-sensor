@@ -1,0 +1,20 @@
+{
+  "templates": [
+    {
+      "name": "template_human_sensor_category",
+      "blocks": [
+        {
+          "block": "div",
+          "blockClass": "apri-view-header",
+          "blocks": [
+            {
+              "block": "div",
+              "blockClass": "apri-view-header-text",
+              "text": "Hier komt een category"
+            }
+          ]
+        }
+		]
+	}	
+  ]
+}
