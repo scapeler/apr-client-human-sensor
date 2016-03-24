@@ -14,6 +14,73 @@ body {
 
 .apri-form-component.not-selectable {
 	opacity:0.4;
+	visibility:hidden;
+}
+
+.apri-templates {
+	display:none;
+	visibility:hidden;
+}
+.apri-page-on {
+	display:inherit;
+	visibility:visible;
+}
+.apri-page-off {
+	display:none;
+	visibility:hidden;
+}
+
+.apri-view-scroll {
+	overflow:scroll;
+	height:800px;
+}
+
+.apri-category-container {
+	background-color: aliceblue;
+	color:black;
+	border-bottom-style:inset;
+	border-color:black;
+	border-bottom-width: 2px;
+}
+.apri-category-container .apri-view-body {
+	width: 30rem;
+	height: 6rem;
+	margin:auto;
+	background-color: white;
+	border-bottom-style:inset;
+	border-color:black;
+	border-bottom-width: 2px;
+}
+
+
+.apri-category-answer {
+	width: 5rem;
+    height: 5rem;
+	border-bottom-width: 0.5em;
+    border-radius: 1em;
+	display:inline-block;
+}
+
+.apri-category-answer-fase-on {
+	opacity:1;
+	border-style:inset;
+}
+.apri-category-answer-fase-off {
+	opacity:0.4;
+	border-style:outset;
+}
+
+.answer-1of3 {
+	background-color:green;
+}
+.answer-2of3 {
+	background-color:yellow;
+}
+.answer-3of3 {
+	background-color:red;
+}
+.answer-99of3 {
+	background-color:grey;
 }
 
 /*
@@ -164,7 +231,7 @@ body {
 #apri-apps-container {
 	width:100%;
 	height:100%;
-	background-color:red;
+	background-color:black;
 }
 #apri-apps-body {
 	width:100%;
@@ -207,6 +274,9 @@ body {
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
 	}
+	.apri-view-scroll {
+		height:400px;
+	}
 	.apri-view-body-footer-body {
 		font-size:1.8rem;
 		font-weight: bold;
@@ -241,6 +311,9 @@ body {
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
 	}
+	.apri-view-scroll {
+		height:600px;
+	}
 	.apri-view-body-footer-body {
 		font-size:1.8rem;
 		font-weight: bold;
@@ -265,7 +338,7 @@ body {
 		height:960px;
 		margin-left: auto;
 		margin-right: auto;
-		background-color:red;
+		background-color:black;
 	}
 	.apri-view-header {
 		font-size:2.3rem;
@@ -280,6 +353,9 @@ body {
 		left:50%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
+	}
+	.apri-view-scroll {
+		height:800px;
 	}
 	.apri-view-body-footer-body {
 		font-size:1.8rem;

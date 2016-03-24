@@ -16,7 +16,10 @@
         },
         {
           "block": "div",
-          "className": "intro-page",
+          "blockClass": "apri-page apri-page-on intro-page",
+		  "attributes": {
+		 	"pageName":"intro-page"
+		  },
           "blocks": [
             {
               "block": "div",
@@ -29,13 +32,13 @@
                 {
                   "block": "div",
                   "blockClass": "apri-view-body-body",
-			      "blocks": [
-		            {
-        		      	"block": "div",
-              			"blockClass": "apri-view-body-body-text",
-              			"text": "Hier komt de intro text "
-            		}
-          			]
+                  "blocks": [
+                    {
+                      "block": "div",
+                      "blockClass": "apri-view-body-body-text",
+                      "text": "Hier komt de intro text "
+                    }
+                  ]
                 },
                 {
                   "block": "div",
@@ -43,7 +46,10 @@
                   "blocks": [
                     {
                       "block": "div",
-                      "blockClass": "apri-view-body-footer-body",
+                      "blockClass": "apri-view-body-footer-body apri-page-action-next-page",
+					  "attributes": {
+					  	"nextPage":"survey-page"
+					  },
                       "blocks": [
                         {
                           "block": "formComponent",
@@ -57,103 +63,45 @@
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "block": "div",
+          "blockClass": "apri-page apri-page-off survey-page",
+		  "attributes": {
+		 	"pageName":"survey-page"
+		  },
+          "blocks": [
             {
               "block": "div",
-              "className": "survey-page",
+              "blockClass": "apri-view-body",
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body",
-                  "blocks": [
-                    {
-                      "block": "div",
-                      "blockClass": "apri-view-body-header"
-                    },
-                    {
-                      "block": "div",
-                      "blockClass": "apri-view-body-body"
-					},
-                    {
-                      "block": "div",
-                      "blockClass": "apri-view-body-footer",
-                      "blocks": [
-                        {
-                          "block": "div",
-                          "blockClass": "apri-view-body-footer-body",
-                          "blocks": [
-                            {
-                              "block": "formComponent",
-                              "mode": "edit",
-                              "type": "button",
-                              "fieldName": "ok",
-                              "labelText": "Bevestig"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
+                  "blockClass": "apri-view-body-header"
                 },
                 {
                   "block": "div",
-                  "className": "result-page",
+                  "blockClass": "apri-view-body-body apri-view-scroll"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-footer",
                   "blocks": [
                     {
                       "block": "div",
-                      "blockClass": "apri-view-body",
+                      "blockClass": "apri-view-body-footer-body apri-page-action-next-page",
+					  "attributes": {
+					  	"nextPage":"result-page"
+					  },
                       "blocks": [
                         {
-                          "block": "div",
-                          "blockClass": "apri-view-body-header"
-                        },
-                        {
-                          "block": "div",
-                          "blockClass": "apri-view-body-body"
-                        },
-                        {
-                          "block": "div",
-                          "blockClass": "apri-view-body-footer",
-                          "blocks": [
-                            {
-                              "block": "div",
-                              "blockClass": "apri-view-body-footer-body",
-                              "blocks": [
-                                {
-                                  "block": "formComponent",
-                                  "mode": "edit",
-                                  "type": "button",
-                                  "fieldName": "home",
-                                  "labelText": "Home"
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "block": "div",
-                      "blockClass": "apri-view-block",
-                      "shortId": "apri-human-sensor-footer-container",
-                      "blocks": [
-                        {
-                          "block": "div",
-                          "blockClass": "apri-view-header",
-                          "shortId": "apri-human-sensor-footer-header",
-                          "blocks": [
-                            {
-                              "block": "div",
-                              "shortId": "apri-human-sensor-footer-header-title-container",
-                              "blocks": [
-                                {
-                                  "block": "div",
-                                  "shortId": "apri-human-sensor-footer-header-title",
-                                  "text": "{{titleDescription}}"
-                                }
-                              ]
-                            }
-                          ]
+                          "block": "formComponent",
+                          "mode": "edit",
+                          "type": "button",
+                          "fieldName": "ok",
+                          "labelText": "Bevestig"
                         }
                       ]
                     }
@@ -162,7 +110,116 @@
               ]
             }
           ]
+        },
+        {
+          "block": "div",
+          "blockClass": "apri-page apri-page-off result-page",
+		  "attributes": {
+		 	"pageName":"result-page"
+		  },
+          "blocks": [
+            {
+              "block": "div",
+              "blockClass": "apri-view-body",
+              "blocks": [
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-header"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-body"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-footer",
+                  "blocks": [
+                    {
+                      "block": "div",
+                      "blockClass": "apri-view-body-footer-body apri-page-action-next-page",
+					  "attributes": {
+					  	"nextPage":"intro-page"
+					  },
+                      "blocks": [
+                        {
+                          "block": "formComponent",
+                          "mode": "edit",
+                          "type": "button",
+                          "fieldName": "home",
+                          "labelText": "Home"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block": "div",
+          "blockClass": "apri-view-block",
+          "shortId": "apri-human-sensor-footer-container",
+          "blocks": [
+            {
+              "block": "div",
+              "blockClass": "apri-view-header",
+              "shortId": "apri-human-sensor-footer-header",
+              "blocks": [
+                {
+                  "block": "div",
+                  "shortId": "apri-human-sensor-footer-header-title-container",
+                  "blocks": [
+                    {
+                      "block": "div",
+                      "shortId": "apri-human-sensor-footer-header-title",
+                      "text": "{{titleDescription}}"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+     {
+      "block": "div",
+      "blockClass": "apri-templates",
+      "blocks": [
+	     {
+      "block": "div",
+      "blockClass": "apri-template apri-human-sensor-template-category",
+      "blocks": [
+        {
+          "block": "div",
+          "blockClass": "apri-view-header",
+          "blocks": [
+            {
+              "block": "div",
+              "blockClass": "apri-view-header-text",
+              "text": "Hier komt een category"
+            }
+          ]
+        },
+        {
+          "block": "div",
+          "blockClass": "apri-view-body",
+          "blocks": [
+            {
+              "block": "div",
+              "blockClass": "apri-view-body-text",
+              "text": ""
+            }
+          ]
+        },
+        {
+          "block": "div",
+          "blockClass": "apri-view-footer",
+          "blocks": [
+          ]
         }
+      ]
+    }
+	]}
       ]
     }
   ]
