@@ -62,26 +62,37 @@ body {
 }
 
 .apri-category-answer-fase-on {
-	opacity:1;
 	border-style:inset;
 }
 .apri-category-answer-fase-off {
-	opacity:0.4;
 	border-style:outset;
 }
 
-.answer-1of3 {
-	background-color:green;
+.answer-1of3.apri-category-answer-fase-on  {
+	background-color:#22FF22;
 }
-.answer-2of3 {
-	background-color:yellow;
+.answer-2of3.apri-category-answer-fase-on {
+	background-color:#FFFF22;
 }
-.answer-3of3 {
-	background-color:red;
+.answer-3of3.apri-category-answer-fase-on {
+	background-color:#FF2222;
 }
-.answer-99of3 {
-	background-color:grey;
+.answer-99of3.apri-category-answer-fase-on {
+	background-color:#222222;
 }
+.answer-1of3.apri-category-answer-fase-off  {
+	background-color:#AAFFAA;
+}
+.answer-2of3.apri-category-answer-fase-off {
+	background-color:#FFFFAA;
+}
+.answer-3of3.apri-category-answer-fase-off {
+	background-color:#FFAAAA;
+}
+.answer-99of3.apri-category-answer-fase-off {
+	background-color:#AAAAAA;
+}
+
 
 /*
 .apri-view-container {

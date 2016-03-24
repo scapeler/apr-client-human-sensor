@@ -48,7 +48,7 @@
                       "block": "div",
                       "blockClass": "apri-view-body-footer-body apri-page-action-next-page",
 					  "attributes": {
-					  	"nextPage":"survey-page"
+					  	"nextPage":"location-page"
 					  },
                       "blocks": [
                         {
@@ -56,7 +56,52 @@
                           "mode": "edit",
                           "type": "button",
                           "fieldName": "intro-next",
-                          "labelText": "Doorgaan"
+                          "labelText": "Ga naar vragenlijst"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block": "div",
+          "blockClass": "apri-page apri-page-off location-page",
+		  "attributes": {
+		 	"pageName":"location-page"
+		  },
+          "blocks": [
+            {
+              "block": "div",
+              "blockClass": "apri-view-body",
+              "blocks": [
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-header"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-body apri-view-scroll"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-footer",
+                  "blocks": [
+                    {
+                      "block": "div",
+                      "blockClass": "apri-view-body-footer-body apri-page-action-next-page",
+					  "attributes": {
+					  	"nextPage":"survey-page"
+					  },
+                      "blocks": [
+                        {
+                          "block": "formComponent",
+                          "mode": "edit",
+                          "type": "button",
+                          "fieldName": "locationOk",
+                          "labelText": "Bevestig location"
                         }
                       ]
                     }
@@ -93,7 +138,7 @@
                       "block": "div",
                       "blockClass": "apri-view-body-footer-body apri-page-action-next-page",
 					  "attributes": {
-					  	"nextPage":"result-page"
+					  	"nextPage":"succes-page"
 					  },
                       "blocks": [
                         {
@@ -113,9 +158,99 @@
         },
         {
           "block": "div",
+          "blockClass": "apri-page apri-page-off succes-page",
+		  "attributes": {
+		 	"pageName":"succes-page"
+		  },
+          "blocks": [
+            {
+              "block": "div",
+              "blockClass": "apri-view-body",
+              "blocks": [
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-header"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-body"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-footer",
+                  "blocks": [
+                    {
+                      "block": "div",
+                      "blockClass": "apri-view-body-footer-body apri-page-action-next-page",
+					  "attributes": {
+					  	"nextPage":"result-page"
+					  },
+                      "blocks": [
+                        {
+                          "block": "formComponent",
+                          "mode": "edit",
+                          "type": "button",
+                          "fieldName": "resultButton",
+                          "labelText": "Succes"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block": "div",
           "blockClass": "apri-page apri-page-off result-page",
 		  "attributes": {
 		 	"pageName":"result-page"
+		  },
+          "blocks": [
+            {
+              "block": "div",
+              "blockClass": "apri-view-body",
+              "blocks": [
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-header"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-body"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body-footer",
+                  "blocks": [
+                    {
+                      "block": "div",
+                      "blockClass": "apri-view-body-footer-body apri-page-action-next-page",
+					  "attributes": {
+					  	"nextPage":"about-page"
+					  },
+                      "blocks": [
+                        {
+                          "block": "formComponent",
+                          "mode": "edit",
+                          "type": "button",
+                          "fieldName": "about",
+                          "labelText": "about"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block": "div",
+          "blockClass": "apri-page apri-page-off about-page",
+		  "attributes": {
+		 	"pageName":"about-page"
 		  },
           "blocks": [
             {
