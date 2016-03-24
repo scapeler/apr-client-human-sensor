@@ -8,6 +8,13 @@
           "blockClass": "apri-view-header",
           "blocks": [
             {
+              "block": "img",
+              "blockClass": "scapeler-logo",
+			  "attributes": {
+		 		"src":"../client/apri-client-human-sensor/images/scapeler.png"
+		  		}
+			},
+            {
               "block": "div",
               "blockClass": "apri-view-header-text",
               "text": "AiREAS Human Sensor "
