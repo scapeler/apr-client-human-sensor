@@ -267,9 +267,9 @@ body {
 }
 
 
+
 @media (min-width: 0px) and (max-width: 320px) {
 	body {
-		font-size: 14px;
 	}
 	.apri-view-header {
 		font-size:2.3rem;
@@ -306,7 +306,6 @@ body {
 }
 @media (min-width: 321px) and (max-width: 400px) {
 	body {
-		font-size: 14px;
 	}
 	.apri-view-header {
 		font-size:2.3rem;
@@ -342,7 +341,6 @@ body {
 }
 @media (min-width: 401px) {
 	body {
-		font-size: 14px;
 	}
 	#apri-apps-container {
 		width:600px;
@@ -393,3 +391,4 @@ body {
 	}
 }
 
+*/
