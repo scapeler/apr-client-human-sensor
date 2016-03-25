@@ -11,7 +11,7 @@ body {
 .apri-menu-fixed {
 	position:fixed;
 	top:0px;
-	background-image: url(../../images/scapeler.png);
+	/*background-image: url(../../images/scapeler.png);*/
 	background-position: left 1rem;
 	background-repeat: no-repeat;
 	min-height: 6rem;
@@ -71,7 +71,6 @@ body {
 }
 .apri-page {
 	position:absolute;
-	top:6rem;
 	width:100%;
 }
 .apri-page-on {
@@ -85,7 +84,6 @@ body {
 
 .apri-view-scroll {
 	overflow:scroll;
-	height:800px;
 }
 
 .apri-category-container {
@@ -299,7 +297,6 @@ body {
 }
 #apri-apps-body {
 	width:100%;
-	height:100%;
 	background-color:aliceblue;
 }
 .apri-app-body {
@@ -410,8 +407,7 @@ body {
 	body {
 	}
 	#apri-apps-container {
-		width:600px;
-		height:960px;
+		max-width:600px;
 		margin-left: auto;
 		margin-right: auto;
 		background-color:black;

@@ -27,7 +27,7 @@
           "blocks": [
         {
           "block": "div",
-          "blockClass": "apri-page apri-page-on intro-page",
+          "blockClass": "apri-page apri-page-on intro-page apri-view-scroll",
 		  "attributes": {
 		 	"pageName":"intro-page"
 		  },
@@ -79,7 +79,7 @@
         },
         {
           "block": "div",
-          "blockClass": "apri-page apri-page-off location-page",
+          "blockClass": "apri-page apri-page-off location-page apri-view-scroll",
 		  "attributes": {
 		 	"pageName":"location-page"
 		  },
@@ -124,7 +124,7 @@
         },
         {
           "block": "div",
-          "blockClass": "apri-page apri-page-off survey-page",
+          "blockClass": "apri-page apri-page-off survey-page apri-view-scroll",
 		  "attributes": {
 		 	"pageName":"survey-page"
 		  },
@@ -169,7 +169,7 @@
         },
         {
           "block": "div",
-          "blockClass": "apri-page apri-page-off succes-page",
+          "blockClass": "apri-page apri-page-off succes-page apri-view-scroll",
 		  "attributes": {
 		 	"pageName":"succes-page"
 		  },
@@ -214,7 +214,7 @@
         },
         {
           "block": "div",
-          "blockClass": "apri-page apri-page-off result-page",
+          "blockClass": "apri-page apri-page-off result-page apri-view-scroll",
 		  "attributes": {
 		 	"pageName":"result-page"
 		  },
@@ -259,7 +259,7 @@
         },
         {
           "block": "div",
-          "blockClass": "apri-page apri-page-off about-page",
+          "blockClass": "apri-page apri-page-off about-page apri-view-scroll",
 		  "attributes": {
 		 	"pageName":"about-page"
 		  },
