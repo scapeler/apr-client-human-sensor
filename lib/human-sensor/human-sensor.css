@@ -8,6 +8,27 @@ body {
   background-color:black;
 }
 
+.apri-menu-fixed {
+	position:fixed;
+	top:0px;
+	background-image: url(../../images/scapeler.png);
+	background-position: left 1rem;
+	background-repeat: no-repeat;
+	min-height: 6rem;
+	width: auto;
+    margin: auto	
+}
+.apri-menu-footer-fixed {
+	position:fixed;
+	top:-100px;
+	background-image: url(../../images/scapeler.png);
+	background-position: left 1rem;
+	background-repeat: no-repeat;
+	min-height: 6rem;
+	width: auto;
+    margin: auto	
+}
+
 .scapeler-logo {
 	float:left;
 	padding-left:1.3rem;
@@ -27,6 +48,11 @@ body {
 .apri-templates {
 	display:none;
 	visibility:hidden;
+}
+.apri-page {
+	position:absolute;
+	top:6rem;
+	width:100%;
 }
 .apri-page-on {
 	display:inherit;

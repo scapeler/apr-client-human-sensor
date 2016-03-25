@@ -5,7 +5,7 @@
       "blocks": [
         {
           "block": "div",
-          "blockClass": "apri-view-header",
+          "blockClass": "apri-view-header apri-menu-fixed",
           "blocks": [
             {
               "block": "img",
@@ -17,10 +17,14 @@
             {
               "block": "div",
               "blockClass": "apri-view-header-text",
-              "text": "AiREAS Human Sensor "
+              "text": "Human Sensor"
             }
           ]
         },
+        {
+          "block": "div",
+          "blockClass": "apri-view-pages",
+          "blocks": [
         {
           "block": "div",
           "blockClass": "apri-page apri-page-on intro-page",
@@ -297,10 +301,12 @@
               ]
             }
           ]
+        }
+		          ]
         },
         {
           "block": "div",
-          "blockClass": "apri-view-block",
+          "blockClass": "apri-view-block apri-menu-footer-fixed",
           "shortId": "apri-human-sensor-footer-container",
           "blocks": [
             {
