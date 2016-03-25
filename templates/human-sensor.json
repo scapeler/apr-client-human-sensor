@@ -23,7 +23,7 @@
         },
         {
           "block": "div",
-          "blockClass": "apri-view-pages",
+          "blockClass": "apri-view-pages-fixed",
           "blocks": [
         {
           "block": "div",
