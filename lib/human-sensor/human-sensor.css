@@ -32,11 +32,22 @@ body {
 }
 
 .apri-view-pages-fixed {
-	position:fixed;
+	#position:fixed;
 	width:100%;
+	background-color:white;
 }
 
-.apri-page-footer-fixed {
+.apri-page-footer {
+	color:black;
+	background-color:grey;
+	background-position: left 1rem;
+	min-height: 1.8rem;
+	#width: 100%;
+    margin: auto;
+	font-size: 1.6rem;	
+	padding:0.3rem;
+}
+.apri-page-footerxx {
 	position:fixed;
 	color:black;
 	background-color:grey;
@@ -71,6 +82,7 @@ body {
 }
 .apri-page {
 	position:absolute;
+	background-color:white;
 	width:100%;
 }
 .apri-page-on {
@@ -81,9 +93,13 @@ body {
 	display:none;
 	visibility:hidden;
 }
+.apri-page .apri-view-body {
+	padding-left: 4rem;
+    padding-right: 2rem;
+}
 
 .apri-view-scroll {
-	overflow:scroll;
+	overflow-y:auto;
 }
 
 .apri-category-container {
@@ -432,9 +448,6 @@ body {
 		left:53%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
-	}
-	.apri-view-scroll {
-		height:800px;
 	}
 	.apri-view-body-footer-body {
 		font-size:1.8rem;
