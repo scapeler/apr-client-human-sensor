@@ -321,7 +321,7 @@
                     {
                       "block": "div",
                       "shortId": "apri-human-sensor-footer-header-title",
-                      "text": "{{titleDescription}}"
+                      "text": "{{titleDescription}} (c) Scapeler 2016"
                     }
                   ]
                 }
