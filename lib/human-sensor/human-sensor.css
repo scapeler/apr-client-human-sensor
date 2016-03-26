@@ -500,7 +500,10 @@ body {
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
+	body {
+		font-size: 32px;
+	}
 	.apri-logo {
-		background-size:200px 200px;
+		background-size:8rem 8rem;
 	}
 }
