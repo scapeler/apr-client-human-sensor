@@ -507,3 +507,16 @@ only screen and (min-device-pixel-ratio: 2) {
 		background-size:8rem 8rem;
 	}
 }
+/** sample media query for pixel-ratio=2" **/
+/* javascript: 
+function jsPixelRatio(){
+   return window.getComputedStyle(document.querySelector('.pixel-ratio-holder'), 'before').getPropertyValue('content').replace(/[^a-z]/g,'') * 1;
+}
+*/
+@media  
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+	.pixel-ratio-holder:before {
+		content: "2";
+	}
+}
