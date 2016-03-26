@@ -406,7 +406,7 @@ body {
 	}
 
 	.apri-view-header.apri-menu-fixed {
-		font-size:1.3rem;
+		font-size:2rem;
 		font-weight: bold;
 		text-align:center;
 		position:relative;
@@ -517,5 +517,16 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 	.apri-logo {
 		background-size:8rem 8rem;
+	}
+}
+@media only screen and (min--moz-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 3/1),
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3) {
+	body {
+		font-size: 32px;
+	}
+	.apri-logo {
+		background-size:5rem 5rem;
 	}
 }
