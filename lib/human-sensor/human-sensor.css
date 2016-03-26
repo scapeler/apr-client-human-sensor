@@ -24,11 +24,13 @@ body {
 	background-color:black;
 	background-position: left 1rem;
 	background-repeat: no-repeat;
-	min-height: 1.5rem;
+	#min-height: 1.1rem;
+	height: 2rem;
 	width: 100%;
     margin: auto;
 	font-size: 0.8rem;	
-	padding:0.3rem;
+	padding:0;
+	line-height:2rem;
 }
 .apri-copyright {
 	text-align:center;
@@ -36,6 +38,16 @@ body {
 	color:#AAAAAA;
 	#line-height: 4.5rem; /* <-- this is what you must define */
     vertical-align: middle;
+	float:left;
+}
+
+.apri-screen-info {
+	text-align:right;
+	font-size: 0.8rem;
+	color:#AAAAAA;
+	#line-height: 4.5rem; /* <-- this is what you must define */
+    vertical-align: right;
+	float:right;
 }
 
 .apri-view-pages-fixed {
@@ -505,18 +517,5 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 	.apri-logo {
 		background-size:8rem 8rem;
-	}
-}
-/** sample media query for pixel-ratio=2" **/
-/* javascript: 
-function jsPixelRatio(){
-   return window.getComputedStyle(document.querySelector('.pixel-ratio-holder'), 'before').getPropertyValue('content').replace(/[^a-z]/g,'') * 1;
-}
-*/
-@media  
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
-	.pixel-ratio-holder:before {
-		content: "2";
 	}
 }
