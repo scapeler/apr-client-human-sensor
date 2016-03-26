@@ -19,7 +19,7 @@ body {
     margin: auto	
 }
 .apri-menu-footer-fixed {
-	position:fixed;
+	#position:fixed;
 	color:white;
 	background-color:black;
 	background-position: left 1rem;
@@ -29,6 +29,13 @@ body {
     margin: auto;
 	font-size: 0.8rem;	
 	padding:0.3rem;
+}
+.apri-copyright {
+	text-align:center;
+	font-size: 0.8rem;
+	color:#AAAAAA;
+	#line-height: 4.5rem; /* <-- this is what you must define */
+    vertical-align: middle;
 }
 
 .apri-view-pages-fixed {

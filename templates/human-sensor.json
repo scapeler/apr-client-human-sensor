@@ -205,8 +205,9 @@
                   "blocks": [
                     {
                       "block": "div",
+                      "blockClass": "apri-copyright",
                       "shortId": "apri-human-sensor-footer-header-title",
-                      "text": "{{titleDescription}} (c) Scapeler 2016"
+                      "text": "{{titleDescription}} (c) Scapeler 2016, Design by Floki.biz"
                     }
                   ]
                 }
