@@ -149,7 +149,9 @@ body {
 	#border-color:black;
 	#border-bottom-width: 0.2rem;
 }
-
+.apri-category-container .apri-view-footer {
+	height:1rem;
+}
 
 .apri-category-answer {
 	width: 3.3rem;
@@ -159,6 +161,19 @@ body {
 	margin: 0.4rem;
 }
 
+.apri-category-answer-99 {
+	height: 30%;
+	width: 9%;
+	margin-left: 2rem;
+}
+.apri-category-answer-icon {
+	height:100%;
+}
+.apri-category-answer-label {
+	line-height:1.8rem;
+	text-align: center;
+	
+}
 .apri-category-answer-fase-on {
 	border-style:inset;
 }
@@ -168,19 +183,19 @@ body {
 
 .answer-1of3.apri-category-answer-fase-on  {
 	background-color:#00FF00;
-	border-color:black;
+	border-color:gray;
 }
 .answer-2of3.apri-category-answer-fase-on {
 	background-color:#FFFF00;
-	border-color:black;
+	border-color:grey;
 }
 .answer-3of3.apri-category-answer-fase-on {
 	background-color:#FF0000;
-	border-color:black;
+	border-color:grey;
 }
 .answer-99of3.apri-category-answer-fase-on {
 	background-color:#111111;
-	border-color:black;
+	border-color:grey;
 }
 .answer-1of3.apri-category-answer-fase-off  {
 	background-color:#EEFFEE;
