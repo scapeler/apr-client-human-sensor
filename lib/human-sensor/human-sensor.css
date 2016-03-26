@@ -10,7 +10,7 @@ body {
 
 .apri-menu-fixed {
 	position:fixed;
-	top:0px;
+	top:0;
 	/*background-image: url(../../images/scapeler.png);*/
 	background-position: left 1rem;
 	background-repeat: no-repeat;
@@ -106,10 +106,10 @@ body {
 	visibility:hidden;
 }
 .apri-page {
-	position:absolute;
+	#position:absolute;
 	background-color:white;
-	width:100%;
 }
+
 .apri-page-on {
 	display:inherit;
 	visibility:visible;
@@ -118,39 +118,45 @@ body {
 	display:none;
 	visibility:hidden;
 }
+.apri-page-body {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+/*
 .apri-page .apri-view-body {
 	padding-left: 4rem;
     padding-right: 2rem;
 }
+*/
 
 .apri-view-scroll {
 	overflow-y:auto;
 }
 
+/*
 .apri-category-container {
-	background-color: aliceblue;
 	color:black;
-	border-bottom-style:inset;
 	border-color:black;
-	border-bottom-width: 2px;
+	border-bottom-width: 0.2rem;
 }
+*/
 .apri-category-container .apri-view-body {
-	width: 30rem;
+	#width: 30rem;
 	height: 6rem;
-	margin:auto;
-	background-color: white;
-	border-bottom-style:inset;
-	border-color:black;
-	border-bottom-width: 2px;
+	#margin:auto;
+	#background-color: white;
+	#border-bottom-style:inset;
+	#border-color:black;
+	#border-bottom-width: 0.2rem;
 }
 
 
 .apri-category-answer {
-	width: 5rem;
-    height: 5rem;
-	border-bottom-width: 0.5em;
-    border-radius: 1em;
+	width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 0.5rem;
 	display:inline-block;
+	margin: 0.4rem;
 }
 
 .apri-category-answer-fase-on {
@@ -161,28 +167,36 @@ body {
 }
 
 .answer-1of3.apri-category-answer-fase-on  {
-	background-color:#22FF22;
+	background-color:#00FF00;
+	border-color:black;
 }
 .answer-2of3.apri-category-answer-fase-on {
-	background-color:#FFFF22;
+	background-color:#FFFF00;
+	border-color:black;
 }
 .answer-3of3.apri-category-answer-fase-on {
-	background-color:#FF2222;
+	background-color:#FF0000;
+	border-color:black;
 }
 .answer-99of3.apri-category-answer-fase-on {
-	background-color:#222222;
+	background-color:#111111;
+	border-color:black;
 }
 .answer-1of3.apri-category-answer-fase-off  {
-	background-color:#AAFFAA;
+	background-color:#EEFFEE;
+	border-color:green;
 }
 .answer-2of3.apri-category-answer-fase-off {
-	background-color:#FFFFAA;
+	background-color:#FFFFEE;
+	border-color:yellow;
 }
 .answer-3of3.apri-category-answer-fase-off {
-	background-color:#FFAAAA;
+	background-color:#FFEEEE;
+	border-color:red;
 }
 .answer-99of3.apri-category-answer-fase-off {
-	background-color:#AAAAAA;
+	background-color:#EEEEEE;
+	border-color:grey;
 }
 
 
@@ -323,9 +337,9 @@ body {
 */
 
 .awesome-marker i {
-        font-size: 16px;
-        margin-top: 10px;
-		margin-left: 3px;
+        font-size: 1rem;
+        margin-top: 0.8rem;
+		margin-left: 0.3rem;
 }
 
 /* 20160301 AW */
@@ -382,9 +396,6 @@ body {
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
 	}
-	.apri-view-scroll {
-		height:400px;
-	}
 	.apri-view-body-footer-body {
 		font-size:1.8rem;
 		font-weight: bold;
@@ -413,11 +424,12 @@ body {
 		height:3rem;
 	}
 	.apri-human-sensor-template-category .apri-view-header {
-		font-size:1.3rem;
-		font-weight: bold;
-		text-align:center;
+		font-size:1.5rem;
+		#text-align:center;
 		position:relative;
-		height:3rem;
+		#height:2rem;
+		line-height:2.5rem;
+		margin-left:0.3rem;
 	}
 	.apri-view-header-text {
 		position:absolute;
@@ -425,9 +437,6 @@ body {
 		left:53%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
-	}
-	.apri-view-scroll {
-		height:600px;
 	}
 	.apri-view-body-footer-body {
 		font-size:1.8rem;
@@ -458,14 +467,13 @@ body {
 		font-weight: bold;
 		text-align:center;
 		position:relative;
-		height:3em;
+		height:3rem;
 	}
 	.apri-human-sensor-template-category .apri-view-header {
 		font-size:2.3rem;
-		font-weight: bold;
 		text-align:center;
 		position:relative;
-		height:3em;
+		height:3rem;
 	}	
 	.apri-view-header-text {
 		position:absolute;
@@ -479,7 +487,7 @@ body {
 		font-weight: bold;
 		text-align:center;
 		position:relative;
-		height:3em;
+		height:3rem;
 	}
 	.apri-view-body-footer-body .apri-form-component {
 		position:absolute;
@@ -502,11 +510,27 @@ body {
 .apri-logo {
 	background-image: url(../../images/scapeler.png);
     background-repeat: no-repeat;
-    background-size: 8rem 8rem;
+    background-size: 6rem 6rem;
     position: absolute;
-    width: 8rem;
-    height: 8rem;
-    margin-left: 2rem;	
+    width: 6rem;
+    height: 6rem;
+    margin-left: 1rem;	
+}
+@media only screen and (min--moz-device-pixel-ratio: 1),
+only screen and (-o-min-device-pixel-ratio: 1/1),
+only screen and (-webkit-min-device-pixel-ratio: 1),
+only screen and (min-device-pixel-ratio: 1) {
+	body {
+		font-size: 12px;
+	}
+	.apri-logo {
+		background-size:4rem 4rem;
+		width: 4rem;
+    	height: 4rem;
+	    margin-top: 0.8rem;
+	    margin-left: 0.5rem;
+	    margin-right: 1rem;	
+	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
@@ -524,9 +548,12 @@ only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	body {
-		font-size: 32px;
+		font-size: 16px;
 	}
 	.apri-logo {
 		background-size:5rem 5rem;
+		width: 5rem;
+    	height: 5rem;
+	    margin-left: 1rem;	
 	}
 }

@@ -31,7 +31,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll"
+                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
                 },
                 {
                   "block": "div",
@@ -58,7 +58,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll"
+                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
                 },
                 {
                   "block": "div",
@@ -85,7 +85,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll"
+                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
                 },
                 {
                   "block": "div",
@@ -112,7 +112,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll"
+                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
                 },
                 {
                   "block": "div",
@@ -139,7 +139,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll"
+                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
                 },
                 {
                   "block": "div",
@@ -166,7 +166,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll"
+                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
                 },
                 {
                   "block": "div",
@@ -226,33 +226,16 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-header",
-                  "blocks": [
-                    {
-                      "block": "div",
-                      "blockClass": "apri-view-header-text",
-                      "text": "Hier komt een category"
-                    }
-                  ]
+                  "blockClass": "apri-view-header"
                 },
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body",
-                  "blocks": [
-                    {
-                      "block": "div",
-                      "blockClass": "apri-view-body-text",
-                      "text": ""
-                    }
-                  ]
-                },
+                  "blockClass": "apri-view-body"
+				},
                 {
                   "block": "div",
-                  "blockClass": "apri-view-footer",
-                  "blocks": [
-                    
-                  ]
-                }
+                  "blockClass": "apri-view-footer"
+				}
               ]
             }
           ]
