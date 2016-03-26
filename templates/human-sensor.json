@@ -8,11 +8,8 @@
           "blockClass": "apri-view-header apri-menu-fixed",
           "blocks": [
             {
-              "block": "img",
-              "blockClass": "scapeler-logo",
-              "attributes": {
-                "src": "../client/apri-client-human-sensor/images/scapeler.png"
-              }
+              "block": "div",
+              "blockClass": "apri-logo"
             },
             {
               "block": "div",
@@ -207,7 +204,7 @@
                       "block": "div",
                       "blockClass": "apri-copyright",
                       "shortId": "apri-human-sensor-footer-header-title",
-                      "text": "{{titleDescription}} (c) Scapeler 2016, Design by Floki.biz"
+                      "text": "{{titleDescription}} (c) Scapeler 2016, Design by Floki"
                     }
                   ]
                 }

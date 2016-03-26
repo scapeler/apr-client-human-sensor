@@ -487,4 +487,20 @@ body {
 	}
 }
 
-*/
+.apri-logo {
+	background-image: url(../../images/scapeler.png);
+    background-repeat: no-repeat;
+    background-size: 8rem 8rem;
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    margin-left: 2rem;	
+}
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.apri-logo {
+		background-size:200px 200px;
+	}
+}
