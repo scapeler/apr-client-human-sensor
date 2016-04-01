@@ -203,14 +203,20 @@ body {
 .answer-1of3.apri-category-answer-fase-off  {
 	background-color:#EEFFEE;
 	border-color:green;
+	height:2rem;
+	width:2rem;
 }
 .answer-2of3.apri-category-answer-fase-off {
 	background-color:#FFFFEE;
 	border-color:yellow;
+	height:2rem;
+	width:2rem;
 }
 .answer-3of3.apri-category-answer-fase-off {
 	background-color:#FFEEEE;
 	border-color:red;
+	height:2rem;
+	width:2rem;
 }
 .answer-99of3.apri-category-answer-fase-off {
 	background-color:#EEEEEE;
