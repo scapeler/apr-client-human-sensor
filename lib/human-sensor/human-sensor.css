@@ -154,7 +154,7 @@ body {
 	height:1rem;
 }
 .apri-category-answers {
-	height: 6rem;
+	height: 4rem;
 }
 .apri-category-answer {
 	width: 3.3rem;
@@ -173,6 +173,7 @@ body {
 	height:100%;
 }
 .apri-category-answer-label {
+	font-size: 0.8rem;
 	line-height:1.8rem;
 	text-align: center;
 	
