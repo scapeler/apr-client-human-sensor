@@ -568,12 +568,13 @@ only screen and (min-device-pixel-ratio: 1) {
 		font-size: 12px;
 	}
 }
+/* iphone */
 @media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	body {
-		font-size: 32px;
+		font-size: 64px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
