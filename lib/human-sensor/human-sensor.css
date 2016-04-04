@@ -560,6 +560,7 @@ body {
 	}
 }
 
+/*
 @media only screen and (min--moz-device-pixel-ratio: 1),
 only screen and (-o-min-device-pixel-ratio: 1/1),
 only screen and (-webkit-min-device-pixel-ratio: 1),
@@ -568,7 +569,9 @@ only screen and (min-device-pixel-ratio: 1) {
 		font-size: 0.8rem;
 	}
 }
+*/
 /* iphone */
+/*
 @media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -577,7 +580,9 @@ only screen and (min-device-pixel-ratio: 2) {
 		font-size: 4rem;
 	}
 }
+*/
 /* iphone */
+/*
 @media (min--moz-device-pixel-ratio: 2),
 (-o-min-device-pixel-ratio: 2/1),
 (-webkit-min-device-pixel-ratio: 2),
@@ -586,6 +591,8 @@ only screen and (min-device-pixel-ratio: 2) {
 		font-size: 2rem;
 	}
 }
+*/
+/*
 @media only screen and (min--moz-device-pixel-ratio: 3),
 only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
@@ -594,6 +601,6 @@ only screen and (min-device-pixel-ratio: 3) {
 		font-size: 1rem;
 	}
 }
-
+*/
 
 
