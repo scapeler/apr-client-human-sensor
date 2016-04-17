@@ -8,6 +8,16 @@ body {
   background-color:black;
 }
 
+h3 {
+    display: block;
+    font-size: 1.17rem;
+    -webkit-margin-before: 1rem;
+    -webkit-margin-after: 1rem;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
 .apri-menu-fixed {
 	position:fixed;
 	top:0;
@@ -138,6 +148,25 @@ body {
 	overflow-y:auto;
 }
 
+.location-neighborhood {
+	display: -webkit-box;
+}
+.location-neighborhood .location-label {
+	min-width: 6rem;
+}
+.location-city {
+	display: -webkit-box;
+}
+.location-city .location-label {
+	min-width: 6rem;
+}
+
+.apri-categories {
+	float:left;
+	overflow-y: auto;
+	height:20rem;
+	width:28rem;
+}
 
 .apri-category-container {
 	#color:black;
@@ -179,7 +208,7 @@ body {
 	margin: 0.6rem;
 }
 
-.apri-category-answer-99 {
+.apri-category-answer-escape {
 	height: 1.3rem;
 	width: 1.3rem;
 	margin-left: 2rem;
@@ -193,52 +222,69 @@ body {
 	text-align: center;
 	
 }
-.apri-category-answer-fase-on {
+.apri-category-answer-status-on {
 	border-style:inset;
 }
-.apri-category-answer-fase-off {
+.apri-category-answer-status-off {
 	border-style:outset;
 }
 
-.answer-1of3.apri-category-answer-fase-on  {
+.answer-1of3.apri-category-answer-status-on  {
 	background-color:#00FF00;
 	border-color:gray;
 }
-.answer-2of3.apri-category-answer-fase-on {
+.answer-2of3.apri-category-answer-status-on {
 	background-color:#FFFF00;
 	border-color:grey;
 }
-.answer-3of3.apri-category-answer-fase-on {
+.answer-3of3.apri-category-answer-status-on {
 	background-color:#FF0000;
 	border-color:grey;
 }
-.answer-99of3.apri-category-answer-fase-on {
+.answer-escape.apri-category-answer-status-on {
 	background-color:#111111;
 	border-color:grey;
 }
-.answer-1of3.apri-category-answer-fase-off  {
+.answer-1of3.apri-category-answer-status-off  {
 	background-color:#EEFFEE;
 	border-color:green;
 	height:2rem;
 	width:2rem;
 }
-.answer-2of3.apri-category-answer-fase-off {
+.answer-2of3.apri-category-answer-status-off {
 	background-color:#FFFFEE;
 	border-color:yellow;
 	height:2rem;
 	width:2rem;
 }
-.answer-3of3.apri-category-answer-fase-off {
+.answer-3of3.apri-category-answer-status-off {
 	background-color:#FFEEEE;
 	border-color:red;
 	height:2rem;
 	width:2rem;
 }
-.answer-99of3.apri-category-answer-fase-off {
+.answer-escape.apri-category-answer-status-off {
 	background-color:#EEEEEE;
 	border-color:grey;
 }
-
+.categories-send-button {
+	background-color: darkcyan;
+	width:4rem;
+	height:17rem;
+	float:right;
+	font-size:1.6rem;
+	position:relative;
+	top: 1rem;
+	writing-mode:tb-rl;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+}
 
 /*
 .apri-view-container {
