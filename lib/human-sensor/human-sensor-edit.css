@@ -456,6 +456,7 @@ h3 {
 }
 
 
+/*
 
 @media (min-width: 0px) and (max-width: 320px) {
 	body {
@@ -468,7 +469,6 @@ h3 {
 		height:3rem;
 	}
  	
-/*
 	.apri-human-sensor-template-category .apri-view-header {
 		font-size:2.3rem;
 		font-weight: bold;
@@ -476,7 +476,6 @@ h3 {
 		position:relative;
 		height:3rem;
 	}
-*/
 	.apri-view-header-text {
 		position:absolute;
 		top:50%;
@@ -500,6 +499,8 @@ h3 {
 	}
 
 }
+*/
+/*
 @media (min-width: 321px) and (max-width: 400px) {
 	body {
 	}
@@ -511,7 +512,7 @@ h3 {
 		position:relative;
 		height:3rem;
 	}
-/*
+
 	.apri-human-sensor-template-category .apri-view-header {
 		font-size:1.5rem;
 		#text-align:center;
@@ -520,7 +521,7 @@ h3 {
 		line-height:2.5rem;
 		margin-left:0.3rem;
 	}
-*/
+
 	.apri-view-header-text {
 		position:absolute;
 		top:50%;
@@ -543,6 +544,8 @@ h3 {
 		transform: translate(-50%, -50%);
 	}
 }
+*/
+/*
 @media (min-width: 401px) {
 	body {
 	}
@@ -552,7 +555,7 @@ h3 {
 		margin-right: auto;
 		background-color:black;
 	}
-/*
+
 	.apri-view-header.apri-menu-fixed {
 		font-size:2.3rem;
 		font-weight: bold;
@@ -566,7 +569,6 @@ h3 {
 		position:relative;
 		height:3rem;
 	}	
-*/
 	.apri-view-header-text {
 		position:absolute;
 		top:50%;
@@ -598,6 +600,7 @@ h3 {
 		background-color:white;
 	}
 }
+*/
 
 /*
 @media only screen and (min--moz-device-pixel-ratio: 1),
