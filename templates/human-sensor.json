@@ -4,17 +4,77 @@
       "name": "template_human_sensor",
       "blocks": [
         {
-          "block": "div",
-          "blockClass": "apri-view-header apri-menu-fixed",
+          "block": "header",
+          "blockClass": "mobile-nav apri-view-header apri-menu-fixed",
           "blocks": [
             {
-              "block": "div",
-              "blockClass": "apri-logo"
-            },
+              "block": "h1",
+              "text": "Human Sensor"
+            },			
             {
               "block": "div",
-              "blockClass": "apri-view-header-text",
-              "text": "Human Sensor"
+              "blockClass": "menu-btn",
+			  "idShort":"menu-btn",
+              "text": "Menu"
+            },
+            {
+              "block": "nav",
+              "blockClass": "responsive-menu",
+	          "blocks": [
+			  		{
+             			"block": "ul",
+				        "blocks": [
+							{
+								"block": "li",
+						        "blocks": [
+									{
+									"block": "a",
+             						"attributes": {
+                						"href": "#"
+              						},
+									"text":"Home"									
+									}
+								]				
+							},
+							{
+								"block": "li",
+						        "blocks": [
+									{
+									"block": "a",
+             						"attributes": {
+                						"href": "#"
+              						},
+									"text":"Vragenlijst"									
+									}
+								]				
+							},
+							{
+								"block": "li",
+						        "blocks": [
+									{
+									"block": "a",
+             						"attributes": {
+                						"href": "#"
+              						},
+									"text":"Resultaten"									
+									}
+								]				
+							},
+							{
+								"block": "li",
+						        "blocks": [
+									{
+									"block": "a",
+             						"attributes": {
+                						"href": "#"
+              						},
+									"text":"Over ons"									
+									}
+								]				
+							}
+						]
+					}	
+				]
             }
           ]
         },
@@ -187,28 +247,28 @@
 		  ]
         },
         {
-          "block": "div",
+          "block": "footer",
           "blockClass": "apri-view-block apri-menu-footer-fixed",
-          "shortId": "apri-human-sensor-footer-container",
+          "idShort": "apri-human-sensor-footer-container",
           "blocks": [
             {
-              "block": "div",
+              "block": "section",
               "blockClass": "apri-view-header",
-              "shortId": "apri-human-sensor-footer-header",
+              "idShort": "credits",
               "blocks": [
                 {
                   "block": "div",
-                  "shortId": "apri-human-sensor-footer-header-title-container",
+                  "idShort": "apri-human-sensor-footer-header-title-container",
                   "blocks": [
                     {
                       "block": "div",
                       "blockClass": "apri-copyright",
-                      "shortId": "apri-human-sensor-footer-header-title",
-                      "text": "{{titleDescription}} (c) Scapeler 2016, Design by Floki"
+                      "idShort": "apri-human-sensor-footer-header-title",
+                      "text": "{{titleDescription}} © Scapeler 2016, Design by Floki"
                     },
                     {
                       "block": "div",
-                      "blockClass": "apri-screen-info"
+                      "idShort": "apriscreeninfo"
                     }
                   ]
                 }
