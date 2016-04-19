@@ -17,11 +17,11 @@ h3 {
     -webkit-margin-end: 0px;
     font-weight: bold;
 }
-
+/*
 .apri-menu-fixed {
 	position:fixed;
 	top:0;
-	/*background-image: url(../../images/scapeler.png);*/
+	#background-image: url(../../images/scapeler.png);
 	background-position: left 1rem;
 	background-repeat: no-repeat;
 	min-height: 6rem;
@@ -43,14 +43,15 @@ h3 {
 	padding-top:0.5rem;
 	#line-height:2rem;
 }
+
 .apri-copyright {
 	#text-align:center;
 	color:#AAAAAA;
-	#line-height: 4.5rem; /* <-- this is what you must define */
+	#line-height: 4.5rem;
     vertical-align: middle;
 	float:left;
 }
-
+*/
 
 .apri-view-pages-fixed {
 	#position:fixed;
@@ -551,6 +552,7 @@ h3 {
 		margin-right: auto;
 		background-color:black;
 	}
+/*
 	.apri-view-header.apri-menu-fixed {
 		font-size:2.3rem;
 		font-weight: bold;
@@ -558,7 +560,6 @@ h3 {
 		position:relative;
 		height:3rem;
 	}
-/*
 	.apri-human-sensor-template-category .apri-view-header {
 		font-size:2.3rem;
 		text-align:center;
