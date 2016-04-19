@@ -52,12 +52,13 @@ h3 {
 	float:left;
 }
 */
-
-.apri-view-pages-fixed {
+/*
+.apri-view-pages {
 	#position:fixed;
 	width:100%;
 	background-color:white;
 }
+
 
 .apri-page-footer {
 	color:black;
@@ -77,17 +78,8 @@ h3 {
 	#font-size: 2.6rem;
 	line-height: 4.5rem; /* <-- this is what you must define */
     #vertical-align: middle;
-/*	
-	margin: auto;
-	min-height: 2rem;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-*/
 } 
-
+*/
 .apri-logo {
 	background-image: url(../../images/scapeler.png);
     background-repeat: no-repeat;
@@ -113,11 +105,12 @@ h3 {
 	display:none;
 	visibility:hidden;
 }
+/*
 .apri-page {
 	#position:absolute;
 	background-color:white;
 }
-
+*/
 .apri-page-on {
 	display:inherit;
 	visibility:visible;
@@ -126,10 +119,12 @@ h3 {
 	display:none;
 	visibility:hidden;
 }
+/*
 .apri-page-body {
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
+*/
 /*
 .apri-page .apri-view-body {
 	padding-left: 4rem;
@@ -137,10 +132,11 @@ h3 {
 }
 */
 
+/*
 .apri-view-scroll {
 	overflow-y:auto;
 }
-
+*/
 .location-neighborhood {
 	display: -webkit-box;
 }

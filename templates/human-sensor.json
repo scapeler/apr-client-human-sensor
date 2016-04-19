@@ -80,7 +80,7 @@
         },
         {
           "block": "div",
-          "blockClass": "apri-view-pages-fixed",
+          "blockClass": "apri-view-pages",
           "blocks": [
             {
               "block": "div",
