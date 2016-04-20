@@ -28,9 +28,10 @@
 								"block": "li",
 						        "blocks": [
 									{
-									"block": "a",
+									"block": "div",
+									"blockClass": "apri-page-actions menu-button",
              						"attributes": {
-                						"href": "#"
+                						"nextPage": "introPage"
               						},
 									"text":"Home"									
 									}
@@ -40,9 +41,10 @@
 								"block": "li",
 						        "blocks": [
 									{
-									"block": "a",
+									"block": "div",
+									"blockClass": "apri-page-actions menu-button",
              						"attributes": {
-                						"href": "#"
+                						"nextPage": "surveyPage"
               						},
 									"text":"Vragenlijst"									
 									}
@@ -52,9 +54,10 @@
 								"block": "li",
 						        "blocks": [
 									{
-									"block": "a",
+									"block": "div",
+									"blockClass": "apri-page-actions menu-button",
              						"attributes": {
-                						"href": "#"
+                						"nextPage": "resultPage"
               						},
 									"text":"Resultaten"									
 									}
@@ -64,9 +67,10 @@
 								"block": "li",
 						        "blocks": [
 									{
-									"block": "a",
+									"block": "div",
+									"blockClass": "apri-page-actions menu-button",
              						"attributes": {
-                						"href": "#"
+                						"nextPage": "aboutPage"
               						},
 									"text":"Over ons"									
 									}

@@ -42,12 +42,16 @@ img {
   margin: 1rem 0;
 }
 
-a {
+li div {
+	display:inline;
+}
+
+a, .apri-page-actions.menu-button {
   color: #333;
   text-decoration: none;
 }
 
-a:hover {
+a:hover,  .apri-page-actions.menu-button:hover {
   color: #999;
 }
 
@@ -71,7 +75,7 @@ body header ul li {
     display: inline;
 }
 
-body header ul li a {
+body header ul li a , body header ul li .apri-page-actions.menu-button {
     background-color: #222;
     color: white;
     padding: 0.8rem 1.2rem;
@@ -81,7 +85,7 @@ body header ul li a {
     transition:  0.5s;
 }
 
-body header ul li a:hover {
+body header ul li a:hover , body header ul li .apri-page-actions.menu-button:hover {
     background-color: #FFCC00;
     color: #333;
 }
@@ -146,7 +150,7 @@ main ol li, .apri-page ol li {
     display: inline;
 }
 
-main ol li a, .apri-page ol li a {
+main ol li a, .apri-page ol li .apri-page-actions.menu-button { 
     background-color: #222;
     color: white;
     padding: 0.3rem 0.5rem;
@@ -158,7 +162,7 @@ main ol li a, .apri-page ol li a {
 }
 
 
-main ol li a:hover, .apri-page ol li a:hover {
+main ol li a:hover, .apri-page ol li .apri-page-actions.menu-button:hover {
     background-color: #FFCC00;
     color: #333;
     border-radius: 0rem;
@@ -390,7 +394,7 @@ label.light {
       width: 100%;
   }
 
-  body header ul li a {
+  body header ul li a , body header ul li .apri-page-actions.menu-button  {
       padding: 0.3rem 0.5rem;
       margin-top: 0.5rem;
       display: block;
@@ -400,7 +404,7 @@ label.light {
     display: none;
   }
 
-  main ol li a, .apri-page ol li a {
+  main ol li a, .apri-page ol li .apri-page-actions.menu-button {
       padding: 0.3rem 0.5rem;
       margin-top: 0.5rem;
       display: block;
