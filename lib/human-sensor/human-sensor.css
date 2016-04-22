@@ -387,7 +387,7 @@ label.light {
 /* MEDIA QUERIES */
 
 
-@media all and (max-width: 35em) {
+@media all and (max-width: 40em) {
 
   body {
       margin: 0 auto;
