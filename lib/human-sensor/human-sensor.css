@@ -38,8 +38,8 @@ h3 {
 }
 
 img {
-  width: 100%;
-  margin: 1rem 0;
+  width: 75%;
+  margin: 5% 5% 0 5%;
 }
 
 li div {
@@ -387,7 +387,7 @@ label.light {
 /* MEDIA QUERIES */
 
 
-@media all and (max-width: 50em) {
+@media all and (max-width: 35em) {
 
   body {
       margin: 0 auto;
