@@ -94,6 +94,9 @@ h3 {
     margin-left: 1rem;
 }
 
+.leaflet-left .leaflet-control {
+    margin-left: 0.5rem !important;
+}
 
 .apri-form-component {
 	float:left;
