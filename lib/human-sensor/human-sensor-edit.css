@@ -81,10 +81,10 @@ body {
 }
 
 .apri-categories {
-	float:left;
-	overflow-y: auto;
-	height:20rem;
-	width:20rem;
+	#float:left;
+	#overflow-y: auto;
+	#height:20rem;
+	#width:20rem;
 }
 
 .apri-category-container {
@@ -186,6 +186,7 @@ body {
 	background-color:#EEEEEE;
 	border-color:grey;
 }
+/*
 .categories-send-button {
 	background-color: darkcyan;
 	width:4rem;
@@ -204,7 +205,7 @@ body {
     display:block;
     bottom:0;
 }
-
+*/
 
 .awesome-marker i {
         font-size: 1rem;

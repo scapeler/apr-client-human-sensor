@@ -324,7 +324,7 @@ select {
   border-radius: 2px;
 }
 
-button, .page-action-button {
+button, .page-action-button , .categories-send-button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
   background-color: #666;
@@ -336,10 +336,11 @@ button, .page-action-button {
   border: 1px solid #555;
   border-width: 1px 1px 3px;
   box-shadow: 0 3px 3px rgba(55,55,55,0.3) ;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
-button:hover, .page-action-button:hover {
+button:hover, .page-action-button:hover , .categories-send-button:hover {
   color: #bbb;
   background-color: #333;
   border-radius: 5px;

@@ -88,7 +88,7 @@
           "blocks": [
             {
               "block": "div",
-              "blockClass": "apri-page apri-page-on introPage",
+              "blockClass": "apri-page apri-page-off introPage",
               "attributes": {
                 "pageName": "introPage"
               },
