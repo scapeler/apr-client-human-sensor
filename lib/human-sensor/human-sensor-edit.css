@@ -70,13 +70,27 @@ body {
 	display: -webkit-box;
 }
 .location-neighborhood .location-label {
-	min-width: 6rem;
+	min-width: 6.2rem;
+	text-align:right;
 }
+.location-neighborhood .location-neighborhood-content {
+	#font-size: 1.2rem;
+	font-weight:bold;
+	margin-left:1rem;
+}
+
 .location-city {
 	display: -webkit-box;
 }
 .location-city .location-label {
-	min-width: 6rem;
+	min-width: 6.2rem;
+	text-align:right;
+}
+.location-city .location-city-content {
+	#font-size: 1.2rem;
+	font-weight:bold;
+	margin-left:1rem;
+	margin-bottom:2rem;
 }
 
 .apri-categories {
