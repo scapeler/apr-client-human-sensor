@@ -120,11 +120,13 @@ body {
 	margin: 0.4rem;
 }
 .apri-category-answer {
-	width: 3.3rem;
-    height: 3.3rem;
-    border-radius: 0.5rem;
+	width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+	border-width:0.5rem;
+	border-style:solid;
 	display:inline-block;
-	margin: 0.6rem;
+	margin: 0.8rem;
 }
 
 .apri-category-answer-escape {
@@ -141,49 +143,41 @@ body {
 	text-align: center;
 	
 }
+/*
 .apri-category-answer-status-on {
 	border-style:inset;
 }
 .apri-category-answer-status-off {
 	border-style:outset;
 }
+*/
 
 .answer-1of3.apri-category-answer-status-on  {
-	background-color:#00FF00;
-	border-color:gray;
+	background-color:green;
+	border-color:green;
 }
 .answer-2of3.apri-category-answer-status-on {
-	background-color:#FFFF00;
-	border-color:grey;
+	background-color:yellow;
+	border-color:yellow;
 }
 .answer-3of3.apri-category-answer-status-on {
-	background-color:#FF0000;
-	border-color:grey;
+	background-color:red;
+	border-color:red;
 }
 .answer-escape.apri-category-answer-status-on {
-	background-color:#111111;
+	background-color:grey;
 	border-color:grey;
 }
 .answer-1of3.apri-category-answer-status-off  {
-	background-color:#EEFFEE;
 	border-color:green;
-	height:2rem;
-	width:2rem;
 }
 .answer-2of3.apri-category-answer-status-off {
-	background-color:#FFFFEE;
 	border-color:yellow;
-	height:2rem;
-	width:2rem;
 }
 .answer-3of3.apri-category-answer-status-off {
-	background-color:#FFEEEE;
 	border-color:red;
-	height:2rem;
-	width:2rem;
 }
 .answer-escape.apri-category-answer-status-off {
-	background-color:#EEEEEE;
 	border-color:grey;
 }
 /*
