@@ -38,9 +38,9 @@ h3 {
 }
 
 img {
-  width: 75%;
+  width: 100%;
   max-width:40rem;
-  margin: 5% 5% 0 5%;
+  #margin: 5% 5% 0 5%;
 }
 
 li div {
