@@ -95,7 +95,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
+                  "blockClass": "apri-view-body apri-page-body"
                 },
                 {
                   "block": "div",
@@ -122,7 +122,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
+                  "blockClass": "apri-view-body apri-page-body"
                 },
                 {
                   "block": "div",
@@ -149,7 +149,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
+                  "blockClass": "apri-view-body apri-page-body"
                 },
                 {
                   "block": "div",
@@ -176,7 +176,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
+                  "blockClass": "apri-view-body apri-page-body"
                 },
                 {
                   "block": "div",
@@ -203,7 +203,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
+                  "blockClass": "apri-view-body apri-page-body"
                 },
                 {
                   "block": "div",
@@ -230,7 +230,7 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-view-scroll apri-page-body"
+                  "blockClass": "apri-view-body apri-page-body"
                 },
                 {
                   "block": "div",
