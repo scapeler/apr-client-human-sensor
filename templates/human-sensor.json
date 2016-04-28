@@ -160,7 +160,7 @@
                       "blockClass": "apri-page-actions",
                       "attributes": {
                         "prevPage": "locationPage",
-                        "nextPage": "succesPage"
+                        "nextPage": "resultPage"
                       }
                     }
                   ]
