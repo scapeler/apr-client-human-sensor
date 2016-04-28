@@ -44,6 +44,19 @@
 									"block": "div",
 									"blockClass": "apri-page-actions menu-button",
              						"attributes": {
+                						"nextPage": "locationPage"
+              						},
+									"text":"Locatie"									
+									}
+								]				
+							},
+							{
+								"block": "li",
+						        "blocks": [
+									{
+									"block": "div",
+									"blockClass": "apri-page-actions menu-button",
+             						"attributes": {
                 						"nextPage": "surveyPage"
               						},
 									"text":"Vragenlijst"									
