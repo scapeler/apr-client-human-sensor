@@ -106,9 +106,15 @@ body {
 .apri-category-container .apri-view-footer {
 	height:1rem;
 }
+.apri-category-question {
+	font-size: 1rem;
+	#line-height:1.8rem;
+	text-align: center;
+}
+
 .apri-category-answers {
 	height: 5.5rem;
-	width: 21rem;
+	width: 17rem;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -138,10 +144,9 @@ body {
 	height:100%;
 }
 .apri-category-answer-label {
-	font-size: 0.8rem;
-	line-height:1.8rem;
+	font-size: 1rem;
+	#line-height:1.8rem;
 	text-align: center;
-	
 }
 /*
 .apri-category-answer-status-on {
@@ -234,11 +239,20 @@ body {
 .apri-view-body-footer {
 }
 
+.apri-human-sensor-template-category{
+	font-size:1.6rem;
+	text-align:center;
+	padding-top:2rem;
+	padding-bottom:2rem;
+	#position:relative;
+	#height:2.3rem;
+}
 .apri-human-sensor-template-category .apri-view-header {
 	font-size:1.6rem;
 	text-align:center;
-	position:relative;
-	height:2.3rem;
+	#padding-top:2rem;
+	#position:relative;
+	#height:2.3rem;
 }
 
 
