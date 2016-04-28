@@ -214,7 +214,7 @@
                       "blockClass": "apri-page-actions",
                       "attributes": {
                         "prevPage": "surveyPage",
-                        "nextPage": "aboutPage"
+                        "nextPage": "resultPage"
                       }
                     }
                   ]
