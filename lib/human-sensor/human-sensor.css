@@ -321,7 +321,7 @@ input[type="checkbox"] {
 select {
   padding: 0.5em;
   height: 3em;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 button, .page-action-button , .categories-send-button {
