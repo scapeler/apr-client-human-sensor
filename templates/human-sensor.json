@@ -135,7 +135,79 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-page-body"
+                  "blockClass": "apri-view-body apri-page-body",
+				  "blocks": [
+		                {
+        		          "block": "div",
+               			   "blockClass": "locationpage-text"
+                		},
+		                {
+        		          "block": "div",
+              			  "blockClass": "locationpage-location",
+						  "blocks": [
+	          		          {"block": "div",
+              			  		"blockClass": "location-neighborhood",
+								  "blocks": [
+      			         		 	{
+			        		          "block": "div",
+            			   			   "blockClass": "location-label"
+									},
+      			         		 	{
+			        		          "block": "div",
+            			   			   "blockClass": "location-content"
+									}
+									]
+								},
+	          		          {"block": "div",
+              			  		"blockClass": "location-city",
+								  "blocks": [
+      			         		 	{
+			        		          "block": "div",
+            			   			   "blockClass": "location-label"
+									},
+      			         		 	{
+			        		          "block": "div",
+            			   			   "blockClass": "location-content"
+									}
+									]
+								}								
+						  ]
+						 }, 
+		                {
+        		          "block": "div",
+              			  "blockClass": "locationpage-tabs",
+						  "blocks": [
+				                {
+        				          "block": "ul",
+              					  "blockClass": "locationpage-tabs-ul",
+								  "blocks": [
+      			         		 	{
+			        		          "block": "li",
+            			   			   "blockClass": "locationpage-li-auto first-tab tab-selected"
+									},
+      			         		 	{
+			        		          "block": "li",
+            			   			   "blockClass": "locationpage-li-manual last-tab"
+									}
+									]
+                				},
+				                {
+        				          "block": "div",
+              					  "blockClass": "locationpage-tabs-content",
+								  "blocks": [
+      			         		 	{
+			        		          "block": "div",
+            			   			   "blockClass": "locationpage-tab-content locationpage-tab-content-auto tab-selected"
+									},
+      			         		 	{
+			        		          "block": "div",
+            			   			   "blockClass": "locationpage-tab-content locationpage-tab-content-manual"
+									}
+									]
+                				}
+							]
+                		}
+					]
                 },
                 {
                   "block": "div",
