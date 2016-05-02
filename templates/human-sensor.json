@@ -14,7 +14,7 @@
             {
               "block": "div",
               "blockClass": "menu-btn",
-			  "idShort":"menu-btn",
+			  "id":"menu-btn",
               "text": "Menu"
             },
             {
@@ -357,26 +357,26 @@
         {
           "block": "footer",
           "blockClass": "apri-view-block apri-menu-footer-fixed",
-          "idShort": "apri-human-sensor-footer-container",
+          "id": "apri-human-sensor-footer-container",
           "blocks": [
             {
               "block": "section",
               "blockClass": "apri-view-header",
-              "idShort": "credits",
+              "id": "credits",
               "blocks": [
                 {
                   "block": "div",
-                  "idShort": "apri-human-sensor-footer-header-title-container",
+                  "id": "apri-human-sensor-footer-header-title-container",
                   "blocks": [
                     {
                       "block": "div",
                       "blockClass": "apri-copyright",
-                      "idShort": "apri-human-sensor-footer-header-title",
+                      "id": "apri-human-sensor-footer-header-title",
                       "text": "{{titleDescription}} © Scapeler 2016, Design by Floki"
                     },
                     {
                       "block": "div",
-                      "idShort": "apriscreeninfo"
+                      "id": "apriscreeninfo"
                     }
                   ]
                 }
