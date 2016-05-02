@@ -183,7 +183,11 @@
 								  "blocks": [
       			         		 	{
 			        		          "block": "li",
-            			   			   "blockClass": "locationpage-li-auto first-tab tab-selected"
+            			   			   "blockClass": "locationpage-li-prev first-tab tab-selected"
+									},
+      			         		 	{
+			        		          "block": "li",
+            			   			   "blockClass": "locationpage-li-auto "
 									},
       			         		 	{
 			        		          "block": "li",
@@ -197,7 +201,11 @@
 								  "blocks": [
       			         		 	{
 			        		          "block": "div",
-            			   			   "blockClass": "locationpage-tab-content locationpage-tab-content-auto tab-selected"
+            			   			   "blockClass": "locationpage-tab-content locationpage-tab-content-prev tab-selected"
+									},
+      			         		 	{
+			        		          "block": "div",
+            			   			   "blockClass": "locationpage-tab-content locationpage-tab-content-auto "
 									},
       			         		 	{
 			        		          "block": "div",
@@ -206,7 +214,18 @@
 									]
                 				}
 							]
+                		},
+						{
+        		          "block": "div",
+              			  "blockClass": "locationpage-map-container",
+						  "blocks": [
+				                {
+        				          "block": "div",
+              					  "blockClass": "locationpage-map"
+                				}
+							]
                 		}
+
 					]
                 },
                 {

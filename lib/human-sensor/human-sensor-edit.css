@@ -141,12 +141,12 @@ tabs_holder->locationpage-tabs
 	border-top-right-radius: 9px;
 	border-top-left-radius: 9px;
 	border: 1px solid #ddd;
-	height:2.7rem;
+	height:3.2rem;
 }
 .locationpage-tabs li.tab-selected {
 	background: #fff;
 	border-bottom: none;
-	height:2.8rem;
+	height:3.3rem;
 }
 .locationpage-tabs li.tab-selected {
 	color: #cd0000;
@@ -163,6 +163,8 @@ tabs_holder->locationpage-tabs
 	#color: #777;
 	padding: 5px;
 	border: 1px solid #ddd;
+	text-align:left;
+	padding:1rem;
 }
 
 .locationpage-tabs-content .locationpage-tab-content {
