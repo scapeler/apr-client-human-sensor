@@ -7,9 +7,10 @@ body {
 
 #progressbar {
 	width:0.5rem;
-	height:0.5rem;
+	height:0.25rem;
 	background-color:gold;
-	position:absolute;
+	position:fixed;
+	top:0.5rem;
 }
 
 .apri-logo {
