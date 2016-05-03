@@ -5,7 +5,12 @@ body {
 	-ms-user-select: none;
 }
 
-
+#progressbar {
+	width:0.5rem;
+	height:0.5rem;
+	background-color:gold;
+	position:absolute;
+}
 
 .apri-logo {
 	background-image: url(../../images/scapeler.png);
