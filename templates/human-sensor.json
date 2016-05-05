@@ -8,6 +8,14 @@
           "blockClass": "mobile-nav apri-view-header apri-menu-fixed",
           "blocks": [
             {
+              "block": "div",
+              "blockClass": "notification"
+            },
+            {
+              "block": "div",
+              "blockClass": "progressbar"
+            },
+            {
               "block": "h1",
               "text": "Human Sensor"
             },			
