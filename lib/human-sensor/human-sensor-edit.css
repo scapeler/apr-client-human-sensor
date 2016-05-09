@@ -17,6 +17,11 @@ body {
 .notification-enabled {
 	z-index:10;
 }
+.notification-error {
+	z-index:10;
+	background-color:red;
+}
+
 
 .progressbar-container {
 	visibility:hidden;
