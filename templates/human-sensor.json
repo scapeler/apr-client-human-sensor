@@ -3,18 +3,34 @@
     {
       "name": "template_human_sensor",
       "blocks": [
-        {
-          "block": "header",
-          "blockClass": "mobile-nav apri-view-header apri-menu-fixed",
-          "blocks": [
             {
               "block": "div",
               "blockClass": "notification"
             },
             {
               "block": "div",
-              "blockClass": "progressbar"
+              "blockClass": "progressbar-container",
+ 	          "blocks": [
+			  		{
+              		"block": "div",
+              		"blockClass": "progressbar-bar"					
+					}
+				]	
             },
+            {
+              "block": "div",
+              "blockClass": "twm-progressbar-container",
+ 	          "blocks": [
+			  		{
+              		"block": "div",
+              		"blockClass": "twm-progressbar-bar"					
+					}
+				]	
+            },			
+        {
+          "block": "header",
+          "blockClass": "mobile-nav apri-view-header apri-menu-fixed",
+          "blocks": [
             {
               "block": "h1",
               "text": "Human Sensor"

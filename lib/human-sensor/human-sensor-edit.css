@@ -6,7 +6,7 @@ body {
 }
 
 .notification {
-	width:100%;
+	width:75%;
 	height:5rem;
 	background-color:gold;
 	color:black;
@@ -18,13 +18,42 @@ body {
 	z-index:10;
 }
 
-.progressbar {
-	width:0rem;
+.progressbar-container {
+	visibility:hidden;
+    position: fixed;
+    width: 75%;
 	height:0.25rem;
-	background-color:gold;
-	position:fixed;
-	top:0.5rem;
+	background-color:#333;
+	top:0rem;
 }
+.progressbar-container.enabled {
+	visibility:visible;
+}
+.progressbar-bar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: gold;
+}
+
+.twm-progressbar-container {
+	visibility:hidden;
+    position: fixed;
+    width: 75%;
+    background-color: #333;
+	height:0.25rem;
+	top:0rem;
+}
+.twm-progressbar-container.enabled {
+	visibility:visible;
+}
+.twm-progressbar-bar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: gold;
+}
+
 
 .apri-logo {
 	background-image: url(../../images/scapeler.png);
