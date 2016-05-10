@@ -33,8 +33,21 @@
           "blocks": [
             {
               "block": "h1",
-              "text": "Human Sensor"
-            },			
+	          "blocks": [			  
+                {
+                  "block": "div",
+				  "style": "display:inline-block;",
+                  "text": "Human Sensor"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "nrofconnections",
+                  "attributes": {
+                    "nrofconnections": "0"
+                  }
+                }
+			  ]			  
+            },
             {
               "block": "div",
               "blockClass": "menu-btn",
@@ -116,7 +129,7 @@
 						]
 					}	
 				]
-            }
+            }		
           ]
         },
         {
