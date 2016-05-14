@@ -13,7 +13,7 @@ body {
 .nrofconnections[nrofconnections]:after {
    content:attr(nrofconnections);
    position:absolute;
-   top:-3rem;
+   top:-6rem;
    #left:42rem;
    font-size:.7em;
    background:green;
@@ -23,7 +23,7 @@ body {
    line-height:18px;
    border-radius:50%;
    box-shadow:0 0 1px #333;
-   margin-left:-1rem;
+   margin-left:0rem;
    
 }
 
@@ -166,7 +166,25 @@ body {
 	#font-size: 1.2rem;
 	font-weight:bold;
 	margin-left:1rem;
-	margin-bottom:2rem;
+	#margin-bottom:2rem;
+}
+
+.location-show-hide {
+	width:4rem;
+	height:4rem;
+	border-color:grey;
+	float: right;
+	background-color:gold;
+	position:absolute;
+	top:0rem;
+	right:2rem;
+}
+
+.locationpage-subpage {
+}
+.locationpage-subpage-hide {
+	display:none;
+	visibility:hidden;	
 }
 
 /*
@@ -250,7 +268,15 @@ tabs_holder->locationpage-tabs
  	display: block;
  }
 
+.locationpage-map {
+ 	width:100%;
+	height:20rem;
+ }
 
+.resultpage-map {
+ 	width:100%;
+	height:30rem;
+ }
 
 
 
@@ -302,6 +328,7 @@ tabs_holder->locationpage-tabs
 	margin: 0.4rem;
 }
 .apri-category-answer {
+	position:relative;
 	width: 4rem;
     height: 4rem;
     border-radius: 2rem;
@@ -318,6 +345,15 @@ tabs_holder->locationpage-tabs
 }
 .apri-category-answer-icon {
 	height:100%;
+}
+.apri-category-answer-score {
+	position:absolute;
+	font-size:1.2rem;
+	top:0rem;
+	line-height:3rem;
+	margin-left:0.2rem;
+	width:3rem;
+	text-align:center;
 }
 .apri-category-answer-label {
 	font-size: 1rem;

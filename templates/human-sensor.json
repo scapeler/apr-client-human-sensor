@@ -3,41 +3,47 @@
     {
       "name": "template_human_sensor",
       "blocks": [
+        {
+          "block": "div",
+          "blockClass": "notification"
+        },
+        {
+          "block": "div",
+          "blockClass": "progressbar-container",
+          "blocks": [
             {
               "block": "div",
-              "blockClass": "notification"
-            },
+              "blockClass": "progressbar-bar"
+            }
+          ]
+        },
+        {
+          "block": "div",
+          "blockClass": "twm-progressbar-container",
+          "blocks": [
             {
               "block": "div",
-              "blockClass": "progressbar-container",
- 	          "blocks": [
-			  		{
-              		"block": "div",
-              		"blockClass": "progressbar-bar"					
-					}
-				]	
-            },
-            {
-              "block": "div",
-              "blockClass": "twm-progressbar-container",
- 	          "blocks": [
-			  		{
-              		"block": "div",
-              		"blockClass": "twm-progressbar-bar"					
-					}
-				]	
-            },			
+              "blockClass": "twm-progressbar-bar"
+            }
+          ]
+        },
         {
           "block": "header",
           "blockClass": "mobile-nav apri-view-header apri-menu-fixed",
           "blocks": [
             {
-              "block": "h1",
-	          "blocks": [			  
+              "block": "div",
+              "blocks": [
                 {
                   "block": "div",
-				  "style": "display:inline-block;",
-                  "text": "Human Sensor"
+                  "blockClass": "title",
+                  "text": "L B Q"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "sub-title",
+                  "style": "display:inline-block;",
+                  "text": "Location-Based Questionaire"
                 },
                 {
                   "block": "div",
@@ -46,90 +52,90 @@
                     "nrofconnections": "0"
                   }
                 }
-			  ]			  
+              ]
             },
             {
               "block": "div",
               "blockClass": "menu-btn",
-			  "id":"menu-btn",
+              "id": "menu-btn",
               "text": "Menu"
             },
             {
               "block": "nav",
               "blockClass": "responsive-menu",
-	          "blocks": [
-			  		{
-             			"block": "ul",
-				        "blocks": [
-							{
-								"block": "li",
-						        "blocks": [
-									{
-									"block": "div",
-									"blockClass": "apri-page-actions menu-button",
-             						"attributes": {
-                						"nextPage": "introPage"
-              						},
-									"text":"Home"									
-									}
-								]				
-							},
-							{
-								"block": "li",
-						        "blocks": [
-									{
-									"block": "div",
-									"blockClass": "apri-page-actions menu-button",
-             						"attributes": {
-                						"nextPage": "locationPage"
-              						},
-									"text":"Locatie"									
-									}
-								]				
-							},
-							{
-								"block": "li",
-						        "blocks": [
-									{
-									"block": "div",
-									"blockClass": "apri-page-actions menu-button",
-             						"attributes": {
-                						"nextPage": "surveyPage"
-              						},
-									"text":"Vragenlijst"									
-									}
-								]				
-							},
-							{
-								"block": "li",
-						        "blocks": [
-									{
-									"block": "div",
-									"blockClass": "apri-page-actions menu-button",
-             						"attributes": {
-                						"nextPage": "resultPage"
-              						},
-									"text":"Resultaten"									
-									}
-								]				
-							},
-							{
-								"block": "li",
-						        "blocks": [
-									{
-									"block": "div",
-									"blockClass": "apri-page-actions menu-button",
-             						"attributes": {
-                						"nextPage": "aboutPage"
-              						},
-									"text":"Over ons"									
-									}
-								]				
-							}
-						]
-					}	
-				]
-            }		
+              "blocks": [
+                {
+                  "block": "ul",
+                  "blocks": [
+                    {
+                      "block": "li",
+                      "blocks": [
+                        {
+                          "block": "div",
+                          "blockClass": "apri-page-actions menu-button",
+                          "attributes": {
+                            "nextPage": "introPage"
+                          },
+                          "text": "Home"
+                        }
+                      ]
+                    },
+                    {
+                      "block": "li",
+                      "blocks": [
+                        {
+                          "block": "div",
+                          "blockClass": "apri-page-actions menu-button",
+                          "attributes": {
+                            "nextPage": "locationPage"
+                          },
+                          "text": "Locatie"
+                        }
+                      ]
+                    },
+                    {
+                      "block": "li",
+                      "blocks": [
+                        {
+                          "block": "div",
+                          "blockClass": "apri-page-actions menu-button",
+                          "attributes": {
+                            "nextPage": "surveyPage"
+                          },
+                          "text": "Vragenlijst"
+                        }
+                      ]
+                    },
+                    {
+                      "block": "li",
+                      "blocks": [
+                        {
+                          "block": "div",
+                          "blockClass": "apri-page-actions menu-button",
+                          "attributes": {
+                            "nextPage": "resultPage"
+                          },
+                          "text": "Resultaten"
+                        }
+                      ]
+                    },
+                    {
+                      "block": "li",
+                      "blocks": [
+                        {
+                          "block": "div",
+                          "blockClass": "apri-page-actions menu-button",
+                          "attributes": {
+                            "nextPage": "aboutPage"
+                          },
+                          "text": "Over ons"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -173,97 +179,109 @@
                 {
                   "block": "div",
                   "blockClass": "apri-view-body apri-page-body",
-				  "blocks": [
-		                {
-        		          "block": "div",
-               			   "blockClass": "locationpage-text"
-                		},
-		                {
-        		          "block": "div",
-              			  "blockClass": "locationpage-location",
-						  "blocks": [
-	          		          {"block": "div",
-              			  		"blockClass": "location-neighborhood",
-								  "blocks": [
-      			         		 	{
-			        		          "block": "div",
-            			   			   "blockClass": "location-label"
-									},
-      			         		 	{
-			        		          "block": "div",
-            			   			   "blockClass": "location-content"
-									}
-									]
-								},
-	          		          {"block": "div",
-              			  		"blockClass": "location-city",
-								  "blocks": [
-      			         		 	{
-			        		          "block": "div",
-            			   			   "blockClass": "location-label"
-									},
-      			         		 	{
-			        		          "block": "div",
-            			   			   "blockClass": "location-content"
-									}
-									]
-								}								
-						  ]
-						 }, 
-		                {
-        		          "block": "div",
-              			  "blockClass": "locationpage-tabs",
-						  "blocks": [
-				                {
-        				          "block": "ul",
-              					  "blockClass": "locationpage-tabs-ul",
-								  "blocks": [
-      			         		 	{
-			        		          "block": "li",
-            			   			   "blockClass": "locationpage-li-prev first-tab tab-selected"
-									},
-      			         		 	{
-			        		          "block": "li",
-            			   			   "blockClass": "locationpage-li-auto "
-									},
-      			         		 	{
-			        		          "block": "li",
-            			   			   "blockClass": "locationpage-li-manual last-tab"
-									}
-									]
-                				},
-				                {
-        				          "block": "div",
-              					  "blockClass": "locationpage-tabs-content",
-								  "blocks": [
-      			         		 	{
-			        		          "block": "div",
-            			   			   "blockClass": "locationpage-tab-content locationpage-tab-content-prev tab-selected"
-									},
-      			         		 	{
-			        		          "block": "div",
-            			   			   "blockClass": "locationpage-tab-content locationpage-tab-content-auto "
-									},
-      			         		 	{
-			        		          "block": "div",
-            			   			   "blockClass": "locationpage-tab-content locationpage-tab-content-manual"
-									}
-									]
-                				}
-							]
-                		},
-						{
-        		          "block": "div",
-              			  "blockClass": "locationpage-map-container",
-						  "blocks": [
-				                {
-        				          "block": "div",
-              					  "blockClass": "locationpage-map"
-                				}
-							]
-                		}
-
-					]
+                  "blocks": [
+                    {
+                      "block": "div",
+                      "blockClass": "locationpage-text"
+                    },
+                    {
+                      "block": "div",
+                      "blockClass": "locationpage-location",
+                      "style": "position:relative;",
+                      "blocks": [
+                        {
+                          "block": "div",
+                          "blockClass": "location-neighborhood",
+                          "blocks": [
+                            {
+                              "block": "div",
+                              "blockClass": "location-label"
+                            },
+                            {
+                              "block": "div",
+                              "blockClass": "location-content"
+                            }
+                          ]
+                        },
+                        {
+                          "block": "div",
+                          "blockClass": "location-city",
+                          "blocks": [
+                            {
+                              "block": "div",
+                              "blockClass": "location-label"
+                            },
+                            {
+                              "block": "div",
+                              "blockClass": "location-content"
+                            }
+                          ]
+                        },
+                        {
+                          "block": "div",
+                          "blockClass": "location-show-hide"
+                        }
+                      ]
+                    },
+                    {
+                      "block": "div",
+                      "blockClass": "locationpage-subpage",
+                      "blocks": [
+                        {
+                          "block": "div",
+                          "blockClass": "locationpage-tabs",
+                          "blocks": [
+                            {
+                              "block": "ul",
+                              "blockClass": "locationpage-tabs-ul",
+                              "blocks": [
+                                {
+                                  "block": "li",
+                                  "blockClass": "locationpage-li-prev first-tab tab-selected"
+                                },
+                                {
+                                  "block": "li",
+                                  "blockClass": "locationpage-li-auto "
+                                },
+                                {
+                                  "block": "li",
+                                  "blockClass": "locationpage-li-manual last-tab"
+                                }
+                              ]
+                            },
+                            {
+                              "block": "div",
+                              "blockClass": "locationpage-tabs-content",
+                              "blocks": [
+                                {
+                                  "block": "div",
+                                  "blockClass": "locationpage-tab-content locationpage-tab-content-prev tab-selected"
+                                },
+                                {
+                                  "block": "div",
+                                  "blockClass": "locationpage-tab-content locationpage-tab-content-auto "
+                                },
+                                {
+                                  "block": "div",
+                                  "blockClass": "locationpage-tab-content locationpage-tab-content-manual"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "block": "div",
+                          "blockClass": "locationpage-map-container",
+                          "blocks": [
+                            {
+                              "block": "div",
+                              "blockClass": "locationpage-map"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "block": "div",
@@ -344,7 +362,19 @@
               "blocks": [
                 {
                   "block": "div",
-                  "blockClass": "apri-view-body apri-page-body"
+                  "blockClass": "apri-view-body apri-page-body",
+                  "blocks": [				  
+                        {
+                          "block": "div",
+                          "blockClass": "resultpage-map-container",
+                          "blocks": [
+                            {
+                              "block": "div",
+                              "blockClass": "resultpage-map"
+                            }
+                          ]
+                        }				  
+				  ]
                 },
                 {
                   "block": "div",
@@ -389,7 +419,7 @@
                 }
               ]
             }
-		  ]
+          ]
         },
         {
           "block": "footer",
@@ -436,11 +466,11 @@
                 {
                   "block": "div",
                   "blockClass": "apri-view-body"
-				},
+                },
                 {
                   "block": "div",
                   "blockClass": "apri-view-footer"
-				}
+                }
               ]
             }
           ]
