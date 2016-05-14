@@ -5,7 +5,7 @@
       "blocks": [
         {
           "block": "div",
-          "blockClass": "notification"
+          "blockClass": "notifications"
         },
         {
           "block": "div",
@@ -470,6 +470,30 @@
                 {
                   "block": "div",
                   "blockClass": "apri-view-footer"
+                }
+              ]
+            },
+            {
+              "block": "div",
+              "blockClass": "apri-template apri-human-sensor-template-notification notification",
+              "blocks": [
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-header"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-footer",
+				  "blocks": [
+                    {
+                      "block": "div",
+                      "blockClass": "notification-progress"
+                    }
+				  ]
                 }
               ]
             }

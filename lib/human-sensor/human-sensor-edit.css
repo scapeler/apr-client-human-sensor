@@ -27,7 +27,66 @@ body {
    
 }
 
+.notifications {
+	position:fixed;
+	margin:1rem;
+	font-size:1rem;
+	z-index:9;
+	line-height:normal;
+}
+.notification {
+	width: 360px;
+	position: relative;
+	margin: 0 auto 20px auto;
+	padding: 25px 15px;
+	text-align: left;
+	border-radius: 5px;
+    box-shadow: 
+		0 1px 1px rgba(0,0,0,0.1), 
+		inset 0 1px 0 rgba(255,255,255,0.6);  
+	opacity: 1;
+	cursor: default;
+	#display: none;
+	position:relative;
+}
+.notification-close {
+	animation: fadeOut 2s linear forwards;
+}
 
+.notification-progress {
+	width: 0;
+	height: 4px;
+	background: rgba(255,255,255,0.3);
+	position: absolute;
+	bottom: 5px;
+	left: 2%;
+	border-radius: 3px;
+	box-shadow: 
+		inset 0 1px 1px rgba(0,0,0,0.05), 
+		0 -1px 0 rgba(255,255,255,0.6);
+}
+
+.notification-info {
+	background: #ffe691;
+	border: 1px solid #f6db7b;
+}
+.notification-gold {
+	background: gold;
+	border: 1px solid #f6db7b;
+}
+
+
+
+@keyframes fadeOut {
+	0% 	{ opacity: 0; }
+	10% { opacity: 1; }
+	90% { opacity: 1; transform: translateY(0px); }
+	99% { opacity: 0; transform: translateY(-30px);}
+	100% { opacity: 0; display:none; visibility:hidden; top:-10rem;}
+}
+
+
+/*
 .notification {
 	width:100%;
 	height:5rem;
@@ -37,6 +96,7 @@ body {
 	top:3rem;
 	z-index:-1;
 }
+*/
 .notification-enabled {
 	z-index:10;
 }
