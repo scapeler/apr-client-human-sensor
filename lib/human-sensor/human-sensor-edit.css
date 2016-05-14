@@ -48,9 +48,14 @@ body {
 	cursor: default;
 	#display: none;
 	position:relative;
+	animation: slidein 1s linear forwards;
 }
 .notification-close {
 	animation: fadeOut 2s linear forwards;
+	#animation: slidein 2s linear forwards;
+}
+.notification-hide {
+	display: none;
 }
 
 .notification-progress {
@@ -75,14 +80,24 @@ body {
 	border: 1px solid #f6db7b;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
 
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 @keyframes fadeOut {
 	0% 	{ opacity: 0; }
 	10% { opacity: 1; }
 	90% { opacity: 1; transform: translateY(0px); }
 	99% { opacity: 0; transform: translateY(-30px);}
-	100% { opacity: 0; display:none; visibility:hidden; top:-10rem;}
+	100% { opacity: 0; }
 }
 
 
