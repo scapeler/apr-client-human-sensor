@@ -364,6 +364,14 @@
                   "block": "div",
                   "blockClass": "apri-view-body apri-page-body",
                   "blocks": [				  
+					{
+                      "block": "div",
+                      "blockClass": "resultpage-text"
+                    },						
+                        {
+                          "block": "div",
+                          "blockClass": "resultpage-filters"
+                        },
                         {
                           "block": "div",
                           "blockClass": "resultpage-map-container",
@@ -373,7 +381,51 @@
                               "blockClass": "resultpage-map"
                             }
                           ]
-                        }				  
+                        },
+                    {
+                      "block": "div",
+                      "blockClass": "resultpage-location",
+                      "style": "position:relative;",
+                      "blocks": [
+					    {
+                          "block": "h2",
+                          "blockClass": "result-location-title",
+                          "text": "Resultaten van:"
+                        },
+                        {
+                          "block": "div",
+                          "blockClass": "result-neighborhood",
+                          "blocks": [
+                            {
+                              "block": "div",
+                              "blockClass": "result-label"
+                            },
+                            {
+                              "block": "div",
+                              "blockClass": "result-content"
+                            }
+                          ]
+                        },
+                        {
+                          "block": "div",
+                          "blockClass": "result-city",
+                          "blocks": [
+                            {
+                              "block": "div",
+                              "blockClass": "result-label"
+                            },
+                            {
+                              "block": "div",
+                              "blockClass": "result-content"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "div",
+                      "blockClass": "resultpage-categories"
+                    }				  
 				  ]
                 },
                 {
