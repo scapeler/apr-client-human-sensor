@@ -47,7 +47,7 @@ body {
 		inset 0 1px 0 rgba(255,255,255,0.6);  
 	opacity: 1;
 	cursor: default;
-	#display: none;
+	display: block;
 	position:relative;
 	animation: slidein 1s linear forwards;
 }
@@ -220,6 +220,8 @@ body {
 */
 .location-neighborhood {
 	display: -webkit-box;
+	margin:auto;
+	width:25%;	
 }
 .location-neighborhood .location-label {
 	min-width: 6.2rem;
@@ -233,6 +235,8 @@ body {
 
 .location-city {
 	display: -webkit-box;
+	margin:auto;
+	width:25%;
 }
 .location-city .location-label {
 	min-width: 6.2rem;
