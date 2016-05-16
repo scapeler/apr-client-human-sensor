@@ -412,6 +412,10 @@ label.light {
       margin-top: 0.5rem;
       display: block;
   }
+  
+  .notifications {
+  	width:90%;
+  }
 
   body header>p {
     display: none;
