@@ -225,10 +225,15 @@ body {
 	overflow-y:auto;
 }
 */
+.location-location {
+	display: inline-block;
+	margin:auto;
+	width:65%;	
+}
 .location-neighborhood {
 	display: -webkit-box;
 	margin:auto;
-	width:25%;	
+	width:75%;	
 }
 .location-neighborhood .location-label {
 	min-width: 6.2rem;
@@ -243,7 +248,7 @@ body {
 .location-city {
 	display: -webkit-box;
 	margin:auto;
-	width:25%;
+	width:75%;
 }
 .location-city .location-label {
 	min-width: 6.2rem;
@@ -265,6 +270,7 @@ body {
 	position:absolute;
 	top:0rem;
 	right:2rem;
+	line-height:4rem;
 }
 
 .locationpage-subpage {
