@@ -52,7 +52,7 @@ body {
 	animation: slidein 1s linear forwards;
 }
 .notification-close {
-	animation: fadeOut 2s linear forwards;
+	animation: fadeOut 1s linear forwards;
 	#animation: slidein 2s linear forwards;
 }
 .notification-hide {
@@ -96,7 +96,7 @@ body {
 @keyframes fadeOut {
 	0% 	{ opacity: 0; }
 	10% { opacity: 1; }
-	90% { opacity: 1; transform: translateY(0px); }
+	50% { opacity: 1; transform: translateY(0px); }
 	99% { opacity: 0; transform: translateY(-60px);}
 	100% { opacity: 0; }
 }
