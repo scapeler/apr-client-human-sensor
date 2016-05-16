@@ -43,8 +43,8 @@ body {
 	text-align: left;
 	border-radius: 7px;
     box-shadow: 
-		0 1px 1px rgba(0,0,0,0.1), 
-		inset 0 1px 0 rgba(255,255,255,0.6);  
+		inset 0 0px 0 rgba(0,0,0,0.5), 
+		3px 3px 3px rgba(100,100,100,0.5);		
 	opacity: 1;
 	cursor: default;
 	display: block;
@@ -68,8 +68,8 @@ body {
 	left: 2%;
 	border-radius: 3px;
 	box-shadow: 
-		inset 8px 6px 6px rgba(0,0,0,0.05), 
-		0 2px 0 rgba(255,255,255,0.6);
+		0 1px 1px rgba(0,0,0,0.1), 
+		inset 0 1px 0 rgba(255,255,255,0.6);  
 }
 
 .notification-info {
@@ -77,8 +77,8 @@ body {
 	border: 1px solid #f6db7b;
 }
 .notification-twm {
-	background: #ffffff;
-	border: 1px solid #333;
+	background: #ffe691;
+	border: 1px solid rgba(0,0,0,0.5);
 }
 .notification-gold {
 	background: gold;
