@@ -133,6 +133,8 @@ body {
 	height:0.25rem;
 	background-color:#333;
 	top:0rem;
+	z-index:11;
+
 }
 .progressbar-container.enabled {
 	visibility:visible;
@@ -148,9 +150,10 @@ body {
 	visibility:hidden;
     position: fixed;
     width: 100%;
-    background-color: #333;
+    background-color: rgba(100,100,100,0);
 	height:0.25rem;
 	top:0rem;
+	z-index:11;
 }
 .twm-progressbar-container.enabled {
 	visibility:visible;
