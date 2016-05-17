@@ -225,15 +225,22 @@ body {
 	overflow-y:auto;
 }
 */
+
+.locationpage-location {
+	display:block;
+	width:100%;
+}
+
 .location-location {
-	display: inline-block;
-	margin:auto;
-	width:65%;	
+	display: block;
+	#margin:auto;
+	width:80%;
+	float:left;	
 }
 .location-neighborhood {
 	display: -webkit-box;
-	margin:auto;
-	width:75%;	
+	#margin:auto;
+	#width:75%;	
 }
 .location-neighborhood .location-label {
 	min-width: 6.2rem;
@@ -247,8 +254,8 @@ body {
 
 .location-city {
 	display: -webkit-box;
-	margin:auto;
-	width:75%;
+	#margin:auto;
+	#width:75%;
 }
 .location-city .location-label {
 	min-width: 6.2rem;
@@ -260,17 +267,21 @@ body {
 	margin-left:1rem;
 	#margin-bottom:2rem;
 }
-
+.location-show-hide-container {
+	width:20%;
+	float:left;
+}
 .location-show-hide {
 	width:4rem;
 	height:4rem;
 	border-color:grey;
 	float: right;
 	background-color:gold;
-	position:absolute;
-	top:0rem;
-	right:2rem;
+	#position:absolute;
+	#top:0rem;
+	#right:2rem;
 	line-height:4rem;
+	font-size:1rem;
 }
 
 .locationpage-subpage {

@@ -187,15 +187,11 @@
                     {
                       "block": "div",
                       "blockClass": "locationpage-location",
-                      "style": "position:relative;",
                       "blocks": [
                         {
                           "block": "div",
                           "blockClass": "location-location",
                           "blocks": [
-
-
-
                         {
                           "block": "div",
                           "blockClass": "location-neighborhood",
@@ -228,9 +224,15 @@
 						},
                         {
                           "block": "div",
+                          "blockClass": "location-show-hide-container",
+                          "blocks": [
+                        {
+                          "block": "div",
                           "blockClass": "location-show-hide",
                           "text": "Wijzig"
                         }
+						]
+						}
                       ]
                     },
                     {
