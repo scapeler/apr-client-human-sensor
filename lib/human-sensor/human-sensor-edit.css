@@ -299,6 +299,8 @@ tabs_holder->locationpage-tabs
 */
 
 .locationpage-tabs {
+	display:none;
+	visibility:hidden;
 	-webkit-right-radius: 9px;
 	-moz-border-radius: 9px;
 	border-radius: 9px;
