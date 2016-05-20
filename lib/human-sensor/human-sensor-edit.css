@@ -392,10 +392,15 @@ tabs_holder->locationpage-tabs
  	width:100%;
 	height:30rem;
  }
+.resultpage-location {
+ 	width:50%;
+	position:relative;
+	margin:auto;
+ }
 .result-neighborhood {
 	display: -webkit-box;
-	margin:auto;
-	width:25%;
+	#margin:auto;
+	#width:40%;
 }
 .result-neighborhood .result-label {
 	min-width: 6.2rem;
@@ -409,8 +414,8 @@ tabs_holder->locationpage-tabs
 
 .result-city {
 	display: -webkit-box;
-	margin:auto;
-	width:25%;
+	#margin:auto;
+	#width:40%;
 }
 .result-city .result-label {
 	min-width: 6.2rem;
