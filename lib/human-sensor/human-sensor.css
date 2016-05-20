@@ -420,6 +420,9 @@ label.light {
   .resultpage-location {
  	width:75%;
  }
+  .location-location {
+ 	padding-left:0rem;
+ }
 
   body header>p {
     display: none;
