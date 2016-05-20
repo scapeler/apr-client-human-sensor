@@ -72,6 +72,11 @@ body {
 		inset 0 1px 0 rgba(255,255,255,0.6);  
 }
 
+.notification-icon {
+	width: 4rem;
+	margin-right: 1rem;
+	float:left;
+}
 .notification-info {
 	background: #ffe691;
 	border: 1px solid #f6db7b;
@@ -83,6 +88,10 @@ body {
 .notification-gold {
 	background: gold;
 	border: 1px solid #f6db7b;
+}
+.notification-aireas {
+	background: #ffffff;
+	border: 1px solid rgba(0,0,0,0.5);
 }
 
 @keyframes slidein {
