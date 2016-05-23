@@ -483,6 +483,33 @@
                   ]
                 }
               ]
+            },
+            {
+              "block": "div",
+              "blockClass": "apri-page apri-page-off statisticPage",
+              "attributes": {
+                "pageName": "statisticPage"
+              },
+              "blocks": [
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-body apri-page-body"
+                },
+                {
+                  "block": "div",
+                  "blockClass": "apri-view-footer apri-page-footer",
+                  "blocks": [
+                    {
+                      "block": "div",
+                      "blockClass": "apri-page-actions",
+                      "attributes": {
+                        "prevPage": "resultPage",
+                        "nextPage": "introPage"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
