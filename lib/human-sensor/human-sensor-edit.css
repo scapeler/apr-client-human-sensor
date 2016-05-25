@@ -389,7 +389,7 @@ tabs_holder->locationpage-tabs
 	height:20rem;
  }
  
- .surveyPage {
+.surveyPage {
 	margin-top:4rem;
 }
 
@@ -642,6 +642,7 @@ tabs_holder->locationpage-tabs
 
 .statisticPage .apri-page-body {
 	display:inline-block;
+	width:100%;
 }
 
 .x.trendaxis .tick line{
