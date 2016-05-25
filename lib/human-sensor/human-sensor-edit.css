@@ -638,4 +638,17 @@ tabs_holder->locationpage-tabs
 	#line-height:0.9rem;
 }
 
+/* statistics */
+
+.statisticPage .apri-page-body {
+	display:inline-block;
+}
+
+.x.trendaxis .tick line{
+	opacity:0.3 ;
+}
+.x.trendaxis .tick text{
+	opacity:1;
+}
+
 
